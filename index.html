@@ -3,9 +3,430 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dr. [Your Name] - Academic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Dr. [Your Name]</h3>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#news" class="nav-link">News</a>
+                <a href="#bio" class="nav-link">Bio</a>
+                <div class="nav-dropdown">
+                    <a href="#research" class="nav-link">Research <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#research-projects">Projects</a>
+                        <a href="#research-articles">Articles</a>
+                        <a href="#research-community">Community</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#teaching" class="nav-link">Teaching <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#teaching-2024-2025">2024/2025 @ UKSW</a>
+                    </div>
+                </div>
+                <a href="#business" class="nav-link">Business</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero-content">
+                        <h1>Welcome to My Academic Portfolio</h1>
+                        <p class="hero-subtitle">Researcher, Educator, and Scientific Collaborator</p>
+                        <p class="hero-description">
+                            This website serves as a comprehensive overview of my academic journey, research contributions, 
+                            teaching activities, and professional collaborations. Explore my work, discover my research 
+                            interests, and learn about opportunities for collaboration.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#research" class="btn btn-primary">View Research</a>
+                            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="section">
+            <div class="container">
+                <h2 class="section-title">Scientific News</h2>
+                <div class="news-grid">
+                    <article class="news-item">
+                        <div class="news-date">March 2024</div>
+                        <h3>Latest Research Publication</h3>
+                        <p>Our recent paper on [Research Topic] has been accepted for publication in [Journal Name].</p>
+                        <a href="#" class="news-link">Read more</a>
+                    </article>
+                    <article class="news-item">
+                        <div class="news-date">February 2024</div>
+                        <h3>Conference Presentation</h3>
+                        <p>Presented findings at the International Conference on [Field] in [Location].</p>
+                        <a href="#" class="news-link">Read more</a>
+                    </article>
+                    <article class="news-item">
+                        <div class="news-date">January 2024</div>
+                        <h3>New Research Grant</h3>
+                        <p>Received funding for the project "[Project Name]" from [Funding Agency].</p>
+                        <a href="#" class="news-link">Read more</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bio Section -->
+        <section id="bio" class="section">
+            <div class="container">
+                <h2 class="section-title">Biography</h2>
+                <div class="bio-content">
+                    <div class="bio-text">
+                        <h3>About Me</h3>
+                        <p>
+                            [Your detailed biography goes here. Include your educational background, 
+                            career progression, research interests, and key achievements. This section 
+                            should provide a comprehensive overview of your academic and professional journey.]
+                        </p>
+                        <p>
+                            [Continue with more details about your expertise, research philosophy, 
+                            notable collaborations, and what drives your work in your field.]
+                        </p>
+                        
+                        <h4>Education</h4>
+                        <ul class="education-list">
+                            <li><strong>Ph.D.</strong> in [Field], [University], [Year]</li>
+                            <li><strong>M.Sc.</strong> in [Field], [University], [Year]</li>
+                            <li><strong>B.Sc.</strong> in [Field], [University], [Year]</li>
+                        </ul>
+
+                        <h4>Current Position</h4>
+                        <p>[Your current position and institutional affiliation]</p>
+                    </div>
+                    <div class="bio-sidebar">
+                        <div class="expertise-card">
+                            <h4>Research Interests</h4>
+                            <ul>
+                                <li>[Research Area 1]</li>
+                                <li>[Research Area 2]</li>
+                                <li>[Research Area 3]</li>
+                                <li>[Research Area 4]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <div class="container">
+                <h2 class="section-title">Research</h2>
+                <div class="research-tabs">
+                    <button class="tab-button active" data-tab="projects">Projects</button>
+                    <button class="tab-button" data-tab="articles">Articles</button>
+                    <button class="tab-button" data-tab="community">Community</button>
+                </div>
+
+                <div id="research-projects" class="tab-content active">
+                    <h3>Research Projects</h3>
+                    <div class="projects-grid">
+                        <div class="project-card">
+                            <h4>Project Title 1</h4>
+                            <p class="project-duration">2023 - Present</p>
+                            <p>Brief description of the research project, its objectives, and key findings.</p>
+                            <div class="project-tags">
+                                <span class="tag">[Tag 1]</span>
+                                <span class="tag">[Tag 2]</span>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <h4>Project Title 2</h4>
+                            <p class="project-duration">2022 - 2023</p>
+                            <p>Brief description of the research project, its objectives, and key findings.</p>
+                            <div class="project-tags">
+                                <span class="tag">[Tag 1]</span>
+                                <span class="tag">[Tag 3]</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="research-articles" class="tab-content">
+                    <h3>Publications</h3>
+                    <div class="publications-list">
+                        <div class="publication-item">
+                            <h4>[Paper Title]</h4>
+                            <p class="publication-authors">[Authors], <strong>Your Name</strong>, [Other Authors]</p>
+                            <p class="publication-journal"><em>[Journal Name]</em>, [Year]</p>
+                            <div class="publication-links">
+                                <a href="#" class="pub-link">PDF</a>
+                                <a href="#" class="pub-link">DOI</a>
+                                <a href="#" class="pub-link">Code</a>
+                            </div>
+                        </div>
+                        <div class="publication-item">
+                            <h4>[Paper Title]</h4>
+                            <p class="publication-authors"><strong>Your Name</strong>, [Co-authors]</p>
+                            <p class="publication-journal"><em>[Journal Name]</em>, [Year]</p>
+                            <div class="publication-links">
+                                <a href="#" class="pub-link">PDF</a>
+                                <a href="#" class="pub-link">DOI</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="research-community" class="tab-content">
+                    <h3>Community Involvement</h3>
+                    <div class="community-content">
+                        <div class="community-section">
+                            <h4>Editorial Work</h4>
+                            <ul>
+                                <li>Reviewer for [Journal Name]</li>
+                                <li>Editorial Board Member, [Journal Name]</li>
+                            </ul>
+                        </div>
+                        <div class="community-section">
+                            <h4>Conference Organization</h4>
+                            <ul>
+                                <li>Program Committee, [Conference Name] [Year]</li>
+                                <li>Session Chair, [Conference Name] [Year]</li>
+                            </ul>
+                        </div>
+                        <div class="community-section">
+                            <h4>Professional Memberships</h4>
+                            <ul>
+                                <li>[Professional Organization 1]</li>
+                                <li>[Professional Organization 2]</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching" class="section">
+            <div class="container">
+                <h2 class="section-title">Teaching</h2>
+                <div class="teaching-content">
+                    <div class="teaching-intro">
+                        <p>I am passionate about education and committed to fostering the next generation of researchers and professionals in my field.</p>
+                    </div>
+                    
+                    <div class="teaching-section">
+                        <h3>2024/2025 Academic Year @ UKSW</h3>
+                        <div class="courses-grid">
+                            <div class="course-card">
+                                <h4>[Course Name 1]</h4>
+                                <p class="course-level">Undergraduate</p>
+                                <p class="course-semester">Fall 2024</p>
+                                <p>Course description and learning objectives.</p>
+                                <a href="#" class="course-link">Course Materials</a>
+                            </div>
+                            <div class="course-card">
+                                <h4>[Course Name 2]</h4>
+                                <p class="course-level">Graduate</p>
+                                <p class="course-semester">Spring 2025</p>
+                                <p>Course description and learning objectives.</p>
+                                <a href="#" class="course-link">Course Materials</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="teaching-philosophy">
+                        <h3>Teaching Philosophy</h3>
+                        <p>[Your teaching philosophy and approach to education goes here.]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Business Section -->
+        <section id="business" class="section">
+            <div class="container">
+                <h2 class="section-title">Business Cooperation</h2>
+                <div class="business-content">
+                    <div class="business-intro">
+                        <h3>Professional Collaboration Opportunities</h3>
+                        <p>I welcome opportunities to collaborate with industry partners, startups, and established organizations seeking academic expertise and research-driven solutions.</p>
+                    </div>
+
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Research Consultation</h4>
+                            <p>Expert advice on research methodology, data analysis, and scientific strategy.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <h4>Training & Workshops</h4>
+                            <p>Custom training programs and workshops for professional development.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Strategic Partnerships</h4>
+                            <p>Long-term collaborations for research and development projects.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-chart-line"></i>
+                            <h4>Technical Advisory</h4>
+                            <p>Advisory services for technology development and implementation.</p>
+                        </div>
+                    </div>
+
+                    <div class="business-contact">
+                        <h3>Let's Discuss Your Project</h3>
+                        <p>Interested in collaboration? Contact me to discuss how my expertise can benefit your organization.</p>
+                        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section">
+            <div class="container">
+                <h2 class="section-title">Blog</h2>
+                <div class="blog-content">
+                    <div class="blog-intro">
+                        <p>Thoughts, insights, and reflections on research, academia, and the evolving landscape of [Your Field].</p>
+                    </div>
+                    
+                    <div class="blog-posts">
+                        <article class="blog-post">
+                            <div class="post-date">March 15, 2024</div>
+                            <h3><a href="#">The Future of [Your Research Area]</a></h3>
+                            <p>An exploration of emerging trends and future directions in our field...</p>
+                            <a href="#" class="read-more">Read more</a>
+                        </article>
+                        
+                        <article class="blog-post">
+                            <div class="post-date">February 28, 2024</div>
+                            <h3><a href="#">Reflections on Academic Collaboration</a></h3>
+                            <p>Thoughts on building meaningful partnerships in research...</p>
+                            <a href="#" class="read-more">Read more</a>
+                        </article>
+                        
+                        <article class="blog-post">
+                            <div class="post-date">January 20, 2024</div>
+                            <h3><a href="#">Teaching in the Digital Age</a></h3>
+                            <p>How technology is transforming education and research training...</p>
+                            <a href="#" class="read-more">Read more</a>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        <p>I welcome inquiries about research collaboration, speaking engagements, and academic partnerships.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fas fa-envelope"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <p><a href="mailto:[your.email@domain.com]">[your.email@domain.com]</a></p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <i class="fas fa-university"></i>
+                                <div>
+                                    <h4>Institution</h4>
+                                    <p>[Your Department]<br>
+                                    [Your University]<br>
+                                    [Address]</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <i class="fas fa-phone"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <p>[Your Phone Number]</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h4>Connect Online</h4>
+                            <div class="social-icons">
+                                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-google-scholar"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-orcid"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h3>Send a Message</h3>
+                        <form class="contact-form-element">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dr. [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
