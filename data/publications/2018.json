@@ -1,0 +1,58 @@
+{
+  "year_range": "2018",
+  "publications": [
+    {
+      "title": "Protein Knotting by Active Threading of Nascent Polypeptide Chain Exiting from the Ribosome Exit Channel",
+      "authors": ["P. Dabrowski-Tumanski", "M. Piejko", "S. Niewieczerzal", "A. Stasiak", "J.I. Sulkowska"],
+      "journal": "The Journal of Physical Chemistry B",
+      "year": "2018",
+      "doi": "10.1021/acs.jpcb.8b07634",
+      "image": "assets/images/publications/2018-knotting.png",
+      "abstract": "In this work we show, that on-ribosome cotranslation folding may be a way to form even very deep knots in proteins.",
+      "keywords": ["topology", "proteins", "ribosome", "folding"]
+    },
+    {
+      "title": "GapRepairer: a server to model a structural gap and validate it using topological analysis",
+      "authors": ["A. I. Jarmolinska", "M. Kadlof", "P. Dabrowski-Tumanski", "J.I. Sulkowska"],
+      "journal": "Bioinformatics",
+      "year": "2018",
+      "doi": "10.1093/bioinformatics/bty334",
+      "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/34/19/3300/48919892/bioinformatics_34_19_3300.pdf",
+      "image": "assets/images/publications/2018-gaprepairer.png",
+      "abstract": "In this work we introduce GapRepairer - a server to model a structural gap and validate it using topological analysis",
+      "keywords": ["topology", "proteins", "gap", "server"]
+    },
+    {
+      "title": "Genus trace reveals the topological complexity and domain structure of biomolecules",
+      "authors": ["S. Zajac", "C. Geary", "E.S. Andersen", "P. Dabrowski-Tumanski", "J.I. Sulkowska", "P. Sułkowski"],
+      "journal": "Scientific Reportis",
+      "year": "2018",
+      "doi": "10.1038/s41598-018-35557-3",
+      "pdf_url": "https://www.nature.com/articles/s41598-018-35557-3.pdf",
+      "image": "assets/images/publications/2018-genus.png",
+      "abstract": "In this work we introduce the genus trace - a topological tool to reveal the complexity and domain structure of biomolecules",
+      "keywords": ["topology", "proteins", "lasso", "RNA", "tadpole"]
+    },
+    {
+      "title": "The APS-bracket – A topological tool to classify lasso proteins, RNAs and other tadpole-like structures",
+      "authors": ["P. Dabrowski-Tumanski", "J.I. Sulkowska"],
+      "journal": "Reactive and Functional Polymers",
+      "year": "2018",
+      "doi": "10.1016/j.reactfunctpolym.2018.09.005",
+      "image": "assets/images/publications/2018-APS.png",
+      "abstract": "In this work we introduce the APS-bracket - a topological tool to classify lasso proteins, RNAs and other tadpole-like structures",
+      "keywords": ["topology", "lasso", "RNA", "tadpole"]
+    },
+    {
+      "title": "The exclusive effects of chaperonin on the behavior of proteins with 5<sub>2</sub> knot",
+      "authors": ["Y. Zhao", "P. Dabrowski-Tumanski", "S. Niewieczerzal", "J.I. Sulkowska"],
+      "journal": "PLoS Computational Biology",
+      "year": "2018",
+      "doi": "10.1371/journal.pcbi.1005970",
+      "pdf_url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005970&type=printable",
+      "image": "assets/images/publications/2018-uch.png",
+      "abstract": "In this work we show that chaperonin can stabilize proteins with 5<sub>2</sub> knot and we study the folding pathway of protein with 5<sub>2</sub> knot",
+      "keywords": ["topology", "proteins", "knots", "chaperonin", "UCH"]
+    }
+  ]
+} 

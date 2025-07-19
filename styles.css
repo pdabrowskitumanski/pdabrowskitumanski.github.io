@@ -2694,3 +2694,21 @@ body {
 .suggestion-link i {
     font-size: 12px;
 } 
+
+/* YouTube publication link styling */
+.pub-link.youtube-link {
+    background: #FF0000;
+    color: white;
+    position: relative;
+}
+
+.pub-link.youtube-link:hover {
+    background: #CC0000;
+    color: white;
+}
+
+.pub-link.youtube-link::before {
+    content: "\f167";
+    font-family: "Font Awesome 5 Brands";
+    margin-right: 6px;
+} 

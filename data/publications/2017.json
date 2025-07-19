@@ -1,0 +1,39 @@
+{
+  "year_range": "2017",
+  "publications": [
+    {
+      "title": "PyLasso: a PyMOL plugin to identify lassos ",
+      "authors": ["A.M. Gierut", "P. Dabrowski-Tumanski", "W. Niemyska", "P. Sułkowski", "J.I. Sulkowska"],
+      "journal": "Bioinformatics",
+      "year": "2017",
+      "doi": "10.1093/bioinformatics/btx4930",
+      "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/33/23/3819/49041891/bioinformatics_33_23_3819.pdf",
+      "code_url": "http://pylasso.cent.uw.edu.pl",
+      "image": "assets/images/publications/2017-pylasso.png",
+      "abstract": "In this work we introduce PyLasso - a PyMOL plugin to identify lassos in proteins",
+      "keywords": ["topology", "proteins", "pymol", "lasso", "python"]
+    },
+    {
+      "title": "Topological knots and links in proteins",
+      "authors": ["P. Dabrowski-Tumanski", "J.I. Sulkowska"],
+      "journal": "Proceedings of the National Academy of Sciences",
+      "year": "2017",
+      "doi": "10.1073/pnas.1615862114",
+      "pdf_url": "https://www.pnas.org/doi/epdf/10.1073/pnas.1615862114",
+      "image": "assets/images/publications/2017-pnas.png",
+      "abstract": "In this work we show that proteins can be linked and we study the folding pathway of linked proteins",
+      "keywords": ["topology", "proteins", "links", "folding"]
+    },
+    {
+      "title": "To Tie or Not to Tie? That Is the Question",
+      "authors": ["P. Dabrowski-Tumanski", "J.I. Sulkowska"],
+      "journal": "Polymers",
+      "year": "2017",
+      "doi": "10.3390/polym9090454",
+      "pdf_url": "https://www.mdpi.com/2073-4360/9/9/454/pdf?version=1505562297",
+      "image": "assets/images/publications/2017-to-tie.png",
+      "abstract": "In this work we review the current knowledge on the knots, links, and lassos in proteins",
+      "keywords": ["topology", "proteins", "knots", "links", "lassos", "review"]
+    }
+  ]
+} 

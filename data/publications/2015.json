@@ -1,0 +1,15 @@
+{
+  "year_range": "2015",
+  "publications": [
+    {
+      "title": "Prediction of the optimal set of contacts to fold the smallest knotted protein",
+      "authors": ["P. Dabrowski-Tumanski", "A.I. Jarmolinska", "J.I. Sulkowska"],
+      "journal": "Journal of Physics: Condensed Matter",
+      "year": "2015",
+      "doi": "10.1088/0953-8984/27/1/015001",
+      "image": "assets/images/publications/2015-optimal-contacts.png",
+      "abstract": "In this work we study the folding of the smallest knotted protein showing different folding mechanisms",
+      "keywords": ["topology", "proteins", "knots", "folding", "2efv"]
+    }
+  ]
+} 

@@ -2,27 +2,48 @@
   "year_range": "2021",
   "publications": [
     {
-      "title": "Medical Image Analysis Using Convolutional Neural Networks",
-      "authors": ["Your Name", "Medical collaborator 1", "Medical collaborator 2"],
-      "journal": "IEEE Transactions on Medical Imaging",
+      "title": "Lasso Proteins—Unifying Cysteine Knots and Miniproteins",
+      "authors": ["B.A. Gren", "P. Dabrowski-Tumanski", "W. Niemyska", "J.I. Sulkowska"],
+      "journal": "Polymers",
       "year": "2021",
-      "doi": "10.1109/TMI.2021.example",
-      "pdf_url": "#",
-      "code_url": "https://github.com/yourusername/medical-cnn",
-      "image": "assets/images/publications/medical-cnn-2021.jpg",
-      "abstract": "This study presents a comprehensive approach to medical image analysis using state-of-the-art CNN architectures...",
-      "keywords": ["medical imaging", "CNN", "deep learning", "healthcare"]
+      "doi": "10.3390/polym13223988",
+      "pdf_url": "https://www.mdpi.com/2073-4360/13/22/3988/pdf?version=1637304182",
+      "image": "assets/images/publications/2021-lasso.png",
+      "abstract": "This work studies different topological lasso motifs in proteins, and compares them to their polymer statistics",
+      "keywords": ["proteins", "lasso", "miniproteins", "topology"]
     },
     {
-      "title": "Topological Features in Protein Folding Patterns",
-      "authors": ["Biology collaborator", "Your Name", "Physics collaborator"],
-      "journal": "Biophysical Journal",
+      "title": "A Topological Selection of Folding Pathways from Native States of Knotted Proteins",
+      "authors": ["A. Barbensi", "N. Yerolemou", "O. Vipond", "B.I. Mahler", "P. Dabrowski-Tumanski", "D. Goundaroulis"],
+      "journal": "Symmetry",
       "year": "2021",
-      "doi": "10.1016/j.bpj.2021.example",
-      "pdf_url": "#",
-      "image": "assets/images/publications/protein-folding-2021.jpg",
-      "abstract": "We analyze protein folding using topological methods to identify persistent structural features...",
-      "keywords": ["protein folding", "topology", "biophysics", "structural biology"]
+      "doi": "10.3390/sym13091670",
+      "pdf_url": "https://www.mdpi.com/2073-8994/13/9/1670/pdf?version=1631268923",
+      "image": "assets/images/publications/2021-topological-selection.png",
+      "abstract": "We analyze topologically possible folding pathways of knotted proteins.",
+      "keywords": ["proteins", "folding", "topology", "structural biology", "molecular dynamics"]
+    },
+    {
+      "title": "Molecule Edit Graph Attention Network: Modeling Chemical Reactions as Sequences of Graph Edits",
+      "authors": ["M. Sacha", "M. Blaz", "P. Byrski", "P. Dabrowski-Tumanski", "M. Chrominski", "R. Loska", "P. Wlodarczyk-Pruszynski", "S. Jastrzebski"],
+      "journal": "Journal of Chemical Information and Modeling",
+      "year": "2021",
+      "doi": "10.1021/acs.jcim.1c00537",
+      "image": "assets/images/publications/2021-megan.png",
+      "abstract": "We introduce a state-of-the-art model for chemical retrosynthesis prediction building on local graph edits",
+      "keywords": ["retrosynthesis", "deep learning", "chemical reactions"]
+    },
+    {
+      "title": "Topoly: Python package to analyze topology of polymers",
+      "authors": ["P. Dabrowski-Tumanski", "P. Rubach", "W. Niemyska", "B.A. Gren", "J.I. Sulkowska"],
+      "journal": "Briefings in Bioinformatics",
+      "year": "2021",
+      "doi": "10.1093/bib/bbaa196",
+      "pdf_url": "https://academic.oup.com/bib/article-pdf/22/3/bbaa196/37965886/bbaa196.pdf",
+      "code_url": "https://topoly.cent.uw.edu.pl",
+      "image": "assets/images/publications/2021-topoly.png",
+      "abstract": "We introduce a Python package to analyze topology of polymers.",
+      "keywords": ["polymers", "topology", "python", "package", "knots", "links", "GLN"]
     }
   ]
 } 

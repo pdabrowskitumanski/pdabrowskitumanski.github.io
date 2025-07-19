@@ -631,7 +631,7 @@ window.addEventListener('afterprint', function() {
 
 // Load Publications from JSON files
 async function loadPublications() {
-    const publicationYears = ['2024-2025', '2023', '2021', '2015-2019', '2013'];
+    const publicationYears = ['2025', '2024', '2023', '2021', '2019', '2018', '2017', '2016', '2015', '2013'];
     const publicationsContainer = document.getElementById('research-articles');
     
     if (!publicationsContainer) return;
@@ -728,6 +728,7 @@ function createPublicationItem(pub) {
             <span class='altmetric-embed' data-badge-type='donut' data-doi="${pub.doi}"></span>
         </div>
     ` : '';
+    // _altmetric_embed_init();
     
     // Create links
     const links = [];
@@ -740,6 +741,9 @@ function createPublicationItem(pub) {
     }
     if (pub.code_url && pub.code_url !== '#') {
         links.push(`<a href="${pub.code_url}" class="pub-link" target="_blank">Code</a>`);
+    }
+    if (pub.youtube_url && pub.youtube_url !== '#') {
+        links.push(`<a href="${pub.youtube_url}" class="pub-link youtube-link" target="_blank">YouTube</a>`);
     }
     
     item.innerHTML = `

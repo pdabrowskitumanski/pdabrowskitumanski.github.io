@@ -2,14 +2,15 @@
     "year_range": "2023",
     "publications": [
       {
-        "title": "Knot Theory Applications in Polymer Dynamics",
-        "authors": ["Your Name", "Co-author 1"],
-        "journal": "Physical Review Letters",
+        "title": "AlphaFold Blindness to Topological Barriers Affects Its Ability to Correctly Predict Proteins’ Topology",
+        "authors": ["P. Dabrowski-Tumanski", "A. Stasiak"],
+        "journal": "Molecules",
         "year": "2023",
-        "doi": "10.1103/example-2023",
-        "pdf_url": "#",
-        "abstract": "Investigation of knot theoretical approaches to understanding entangled polymer dynamics...",
-        "keywords": ["knot theory", "polymers", "dynamics", "physics"]
+        "doi": "10.3390/molecules28227462",
+        "pdf_url": "https://www.mdpi.com/1420-3049/28/22/7462/pdf?version=1699344914",
+        "image": "assets/images/publications/2023-alphafold.png",
+        "abstract": "This work shows, how AlphaFold 2 does strugle with predicting the topology of some proteins.",
+        "keywords": ["knot theory", "proteins", "alphafold", "topology"]
       }
     ]
   } 

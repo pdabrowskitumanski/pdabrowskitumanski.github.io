@@ -1,0 +1,49 @@
+{
+  "year_range": "2016",
+  "publications": [
+    {
+      "title": "LassoProt: server to analyze biopolymers with lassos",
+      "authors": ["P. Dabrowski-Tumanski", "W. Niemyska", "P. Pasznik", "J.I. Sulkowska"],
+      "journal": "Nucleic Acids Research",
+      "year": "2016",
+      "doi": "10.1093/nar/gkw308",
+      "pdf_url": "https://academic.oup.com/nar/article-pdf/44/W1/W383/18787436/gkw308.pdf",
+      "image": "assets/images/publications/2016-lassoprot.png",
+      "abstract": "In this work we introduce LassoProt - a server and database analyzing and storing information about the lasso structure in proteins",
+      "keywords": ["topology", "proteins", "lasso", "server", "database"]
+    },
+    {
+      "title": "LinkProt: a database collecting information about biological links",
+      "authors": ["P. Dabrowski-Tumanski", "A.I. Jarmolinska", "W. Niemyska", "E.J. Rawdon", "K.C. Millett", "J.I. Sulkowska"],
+      "journal": "Nucleic Acids Research",
+      "year": "2016",
+      "doi": "10.1093/nar/gkw976",
+      "pdf_url": "https://academic.oup.com/nar/article-pdf/45/D1/D243/8847311/gkw976.pdf",
+      "image": "assets/images/publications/2016-linkprot.png",
+      "abstract": "In this work we introduce LinkProt - a server and a database collecting information about biological links",
+      "keywords": ["topology", "proteins", "links", "database", "server"]
+    },
+    {
+      "title": "Complex lasso: new entangled motifs in proteins",
+      "authors": ["W. Niemyska", "P. Dabrowski-Tumanski", "M. Kadlof", "E. Haglund", "P. Sułkowski", "J.I. Sulkowska"],
+      "journal": "Scientific Reports",
+      "year": "2016",
+      "doi": "10.1038/srep36895",
+      "pdf_url": "https://www.nature.com/articles/srep36895.pdf",
+      "image": "assets/images/publications/2016-complex-lasso.png",
+      "abstract": "In this work we introduce the complex lasso topology- a new entangled motif in proteins",
+      "keywords": ["topology", "proteins", "lasso"]
+    },
+    {
+      "title": "In Search of Functional Advantages of Knots in Proteins",
+      "authors": ["P. Dabrowski-Tumanski", "A. Stasiak", "J.I. Sulkowska"],
+      "journal": "PLoS ONE",
+      "year": "2016",
+      "doi": "10.1371/journal.pone.0165986",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0165986&type=printable",
+      "image": "assets/images/publications/2016-functional-advantages.png",
+      "abstract": "In this work we study the functional advantages of knots in proteins",
+      "keywords": ["topology", "proteins", "knots", "functional advantages"]
+    }
+  ]
+} 

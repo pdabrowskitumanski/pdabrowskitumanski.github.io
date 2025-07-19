@@ -1,0 +1,16 @@
+{
+  "year_range": "2025",
+  "publications": [
+    {
+      "title": "Enhancing Image Quality in Dental-Maxillofacial CBCT: The Impact of Iterative Reconstruction and AI on Noise Reduction—A Systematic Review",
+      "authors": ["R. Wajer", "P. Dabrowski-Tumanski", "A. Wajer", "N. Kazimierczak", "Z. Serafin", "W. Kazimierczak"],
+      "journal": "Journal of Clinical Medicine",
+      "year": "2025",
+      "doi": "10.3390/jcm14124214",
+      "pdf_url": "https://www.mdpi.com/2077-0383/14/12/4214/pdf?version=1749809639",
+      "image": "assets/images/publications/2025-cbct-review.png",
+      "abstract": "This review compares various AI-based methods tackling the problem of noise reduction on CBCT images.",
+      "keywords": ["deep learning", "medical imaging", "CBCT", "review"]
+    }
+  ]
+} 

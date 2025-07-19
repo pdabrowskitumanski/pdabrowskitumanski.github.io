@@ -1,0 +1,27 @@
+{
+  "year_range": "2024",
+  "publications": [
+    {
+      "title": "Theta-curves in proteins",
+      "authors": ["P. Dabrowski-Tumanski", "D. Goundaroulis", "A. Stasiak", "E.J. Rawdon", "J.I. Sulkowska"],
+      "journal": "Protein Science [Cover image]",
+      "year": "2024",
+      "doi": "10.1002/pro.5133",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/epdf/10.1002/pro.5133",
+      "image": "assets/images/publications/2024-theta-curves.png",
+      "abstract": "This work introduces the concept of theta-curves in proteins and identifies their existing types.",
+      "keywords": ["topology", "proteins", "theta-curves"]
+    },
+    {
+      "title": "RapidDock: Unlocking Proteome-scale molecular docking",
+      "authors": ["R. Powalski", "B. Klockiewicz", "M. Jaskowski", "B. Topolski", "P. Dabrowski-Tumanski", "M. Wisniewski", "L. Kucinski", "P. Milos", "D. Plewczynski"],
+      "journal": "ArXiV Preprint",
+      "year": "2024",
+      "doi": "10.48550/arXiv.2411.00004",
+      "pdf_url": "https://arxiv.org/pdf/2411.00004",
+      "image": "assets/images/publications/2024-rapiddock.png",
+      "abstract": "This work introduces a model capable to perform docking of thousands of proteins in a few minutes.",
+      "keywords": ["docking", "deep learning", "proteins"]
+    }
+  ]
+} 

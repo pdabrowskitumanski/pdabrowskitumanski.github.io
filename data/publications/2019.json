@@ -1,0 +1,40 @@
+{
+  "year_range": "2019",
+  "publications": [
+    {
+      "title": "KnotProt 2.0: a database of proteins with knots and other entangled structures ",
+      "authors": ["P. Dabrowski-Tumanski", "P. Rubach", "D. Goundaroulis", "J. Dorier", "P. Sułkowski", "K.C. Millett", "E.J. Rawdon", "A. Stasiak", "J.I. Sulkowska"],
+      "journal": "Nucleic Acids Research",
+      "year": "2019",
+      "doi": "10.1093/nar/gky1140",
+      "pdf_url": "https://academic.oup.com/nar/article-pdf/47/D1/D367/27437560/gky1140.pdf",
+      "image": "assets/images/publications/2019-knotprot.png",
+      "abstract": "This work describes KnotProt 2.0 - an updated server and database storing information about knotted proteins",
+      "keywords": ["topology", "proteins", "database", "server", "knots"]
+    },
+    {
+      "title": "PyLink: a PyMOL plugin to identify links ",
+      "authors": ["A.M. Gierut", "P. Dabrowski-Tumanski", "W. Niemyska", "K.C. Millett", "J.I. Sulkowska"],
+      "journal": "Bioinformatics",
+      "year": "2019",
+      "doi": "10.1093/bioinformatics/bty1038",
+      "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/35/17/3166/50719835/bioinformatics_35_17_3166.pdf",
+      "image": "assets/images/publications/2019-pylink.png",
+      "code_url": "http://pylink.cent.uw.edu.pl",
+      "abstract": "This article describes PyLink - a PyMOL plugin to identify links in proteins",
+      "keywords": ["topology", "proteins", "pymol", "links", "python"]
+    },
+    {
+      "title": "Statistical Properties of Lasso-Shape Polymers and Their Implications for Complex Lasso Proteins Function",
+      "authors": ["P. Dabrowski-Tumanski", "B.A. Gren", "J.I. Sulkowska"],
+      "journal": "Polymers",
+      "year": "2019",
+      "doi": "10.3390/polym11040707",
+      "pdf_url": "https://www.mdpi.com/2073-4360/11/4/707/pdf?version=1556184097",
+      "youtube_url": "https://www.youtube.com/watch?v=Vb8Vut_VD2M",
+      "image": "assets/images/publications/2019-statistical-lasso.png",
+      "abstract": "This work studies statistical properties of lasso-shape polymers and their implications for complex lasso proteins function",
+      "keywords": ["topology", "polymers", "lasso", "statistical mechanics"]
+    }
+  ]
+} 

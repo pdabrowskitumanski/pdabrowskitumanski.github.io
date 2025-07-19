@@ -2,15 +2,15 @@
   "year_range": "2013",
   "publications": [
     {
-      "title": "Topological Methods in Polymer Physics: An Introduction",
-      "authors": ["Your Name", "PhD Advisor", "Department collaborator"],
-      "journal": "Physical Review E",
+      "title": "Efficient and Rapid Synthesis of Nucleoside Diphosphate Sugars from Nucleoside Phosphorimidazolides",
+      "authors": ["P. Dabrowski-Tumanski", "J. Kowalska", "J. Jemielity"],
+      "journal": "European Journal of Organic Chemistry",
       "year": "2013",
-      "doi": "10.1103/PhysRevE.88.example",
-      "pdf_url": "#",
-      "image": "assets/images/publications/topological-polymer-2013.jpg",
-      "abstract": "This introductory work explores the application of topological concepts to polymer physics, laying the groundwork for future research...",
-      "keywords": ["topology", "polymer physics", "mathematical physics", "statistical mechanics"]
+      "doi": "10.1002/ejoc.201201466",
+      "pdf_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/epdf/10.1002/ejoc.201201466",
+      "image": "assets/images/publications/2013-nucleotidesugars.jpg",
+      "abstract": "This work introduces new method of nucleotide sugar synthesis",
+      "keywords": ["synthesis", "nucleotides", "sugar", "chemistry"]
     }
   ]
 } 
