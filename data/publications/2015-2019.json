@@ -1,0 +1,50 @@
+{
+  "year_range": "2015-2019",
+  "publications": [
+    {
+      "title": "Computational Approaches to Knot Invariants",
+      "authors": ["Your Name", "Math collaborator 1"],
+      "journal": "Journal of Knot Theory and Its Ramifications",
+      "year": "2019",
+      "doi": "10.1142/S0218216519500example",
+      "pdf_url": "#",
+      "image": "assets/images/publications/knot-invariants-2019.jpg",
+      "abstract": "We present computational methods for calculating knot invariants with applications to polymer topology...",
+      "keywords": ["knot theory", "computational mathematics", "topology", "invariants"]
+    },
+    {
+      "title": "Polymer Entanglement Dynamics in Confined Geometries",
+      "authors": ["Physics collaborator", "Your Name", "Another collaborator"],
+      "journal": "Macromolecules",
+      "year": "2018",
+      "doi": "10.1021/acs.macromol.8bexample",
+      "pdf_url": "#",
+      "image": "assets/images/publications/polymer-entanglement-2018.jpg",
+      "abstract": "Investigation of how geometric constraints affect polymer entanglement and relaxation dynamics...",
+      "keywords": ["polymers", "entanglement", "dynamics", "confined geometry"]
+    },
+    {
+      "title": "Topological Data Analysis in Biological Networks",
+      "authors": ["Your Name", "Biology collaborator", "Data science collaborator"],
+      "journal": "PLOS Computational Biology",
+      "year": "2017",
+      "doi": "10.1371/journal.pcbi.1005example",
+      "pdf_url": "#",
+      "code_url": "https://github.com/yourusername/tda-bio-networks",
+      "image": "assets/images/publications/tda-bio-networks-2017.jpg",
+      "abstract": "Application of persistent homology to understand structural features in biological networks...",
+      "keywords": ["TDA", "biological networks", "persistent homology", "computational biology"]
+    },
+    {
+      "title": "Mathematical Models of Polymer Chain Dynamics",
+      "authors": ["Your Name", "Advisor Name"],
+      "journal": "Journal of Chemical Physics",
+      "year": "2015",
+      "doi": "10.1063/1.4920example",
+      "pdf_url": "#",
+      "image": "assets/images/publications/polymer-chain-dynamics-2015.jpg",
+      "abstract": "Development of mathematical frameworks for understanding polymer chain motion and entanglement...",
+      "keywords": ["polymer dynamics", "mathematical modeling", "statistical mechanics"]
+    }
+  ]
+} 

@@ -1,0 +1,29 @@
+{
+  "year_range": "2024-2025",
+  "publications": [
+    {
+      "title": "Advanced Topological Methods in Biological Pattern Recognition",
+      "authors": ["Your Name", "Co-author 1", "Co-author 2"],
+      "journal": "Nature Computational Biology",
+      "year": "2024",
+      "doi": "10.1038/s41467-024-example",
+      "pdf_url": "#",
+      "code_url": "https://github.com/yourusername/topology-bio",
+      "image": "assets/images/publications/topology-bio-2024.jpg",
+      "abstract": "This paper presents novel applications of topological data analysis in understanding complex biological patterns...",
+      "keywords": ["topology", "biology", "pattern recognition", "TDA"]
+    },
+    {
+      "title": "Deep Learning Architectures for Artificial Cell Simulation",
+      "authors": ["Co-author 1", "Your Name", "Co-author 2", "Co-author 3"],
+      "journal": "Journal of Artificial Intelligence in Biology",
+      "year": "2024",
+      "doi": "10.1016/j.jaib.2024.example",
+      "pdf_url": "#",
+      "code_url": "#",
+      "image": "assets/images/publications/deep-learning-cell-2024.jpg",
+      "abstract": "We introduce a novel deep learning framework for simulating cellular behavior in artificial environments...",
+      "keywords": ["deep learning", "artificial cell", "simulation", "neural networks"]
+    }
+  ]
+} 

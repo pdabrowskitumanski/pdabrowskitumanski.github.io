@@ -1,0 +1,15 @@
+{
+    "year_range": "2023",
+    "publications": [
+      {
+        "title": "Knot Theory Applications in Polymer Dynamics",
+        "authors": ["Your Name", "Co-author 1"],
+        "journal": "Physical Review Letters",
+        "year": "2023",
+        "doi": "10.1103/example-2023",
+        "pdf_url": "#",
+        "abstract": "Investigation of knot theoretical approaches to understanding entangled polymer dynamics...",
+        "keywords": ["knot theory", "polymers", "dynamics", "physics"]
+      }
+    ]
+  } 

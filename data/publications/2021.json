@@ -1,0 +1,28 @@
+{
+  "year_range": "2021",
+  "publications": [
+    {
+      "title": "Medical Image Analysis Using Convolutional Neural Networks",
+      "authors": ["Your Name", "Medical collaborator 1", "Medical collaborator 2"],
+      "journal": "IEEE Transactions on Medical Imaging",
+      "year": "2021",
+      "doi": "10.1109/TMI.2021.example",
+      "pdf_url": "#",
+      "code_url": "https://github.com/yourusername/medical-cnn",
+      "image": "assets/images/publications/medical-cnn-2021.jpg",
+      "abstract": "This study presents a comprehensive approach to medical image analysis using state-of-the-art CNN architectures...",
+      "keywords": ["medical imaging", "CNN", "deep learning", "healthcare"]
+    },
+    {
+      "title": "Topological Features in Protein Folding Patterns",
+      "authors": ["Biology collaborator", "Your Name", "Physics collaborator"],
+      "journal": "Biophysical Journal",
+      "year": "2021",
+      "doi": "10.1016/j.bpj.2021.example",
+      "pdf_url": "#",
+      "image": "assets/images/publications/protein-folding-2021.jpg",
+      "abstract": "We analyze protein folding using topological methods to identify persistent structural features...",
+      "keywords": ["protein folding", "topology", "biophysics", "structural biology"]
+    }
+  ]
+} 

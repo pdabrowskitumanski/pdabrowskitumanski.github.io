@@ -1,0 +1,16 @@
+{
+  "year_range": "2013",
+  "publications": [
+    {
+      "title": "Topological Methods in Polymer Physics: An Introduction",
+      "authors": ["Your Name", "PhD Advisor", "Department collaborator"],
+      "journal": "Physical Review E",
+      "year": "2013",
+      "doi": "10.1103/PhysRevE.88.example",
+      "pdf_url": "#",
+      "image": "assets/images/publications/topological-polymer-2013.jpg",
+      "abstract": "This introductory work explores the application of topological concepts to polymer physics, laying the groundwork for future research...",
+      "keywords": ["topology", "polymer physics", "mathematical physics", "statistical mechanics"]
+    }
+  ]
+} 

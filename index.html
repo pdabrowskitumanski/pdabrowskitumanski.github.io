@@ -23,18 +23,29 @@
                     <a href="#research" class="nav-link">Research <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content">
                         <a href="#research-projects">Projects</a>
-                        <a href="#research-articles">Articles</a>
+                        <a href="#research-articles">Publications</a>
+                        <a href="#research-tools">Tools</a>
+                        <a href="#research-funding">Funding</a>
                         <a href="#research-community">Community</a>
                     </div>
                 </div>
                 <div class="nav-dropdown">
                     <a href="#teaching" class="nav-link">Teaching <i class="fas fa-chevron-down"></i></a>
                     <div class="dropdown-content">
-                        <a href="#teaching-2024-2025">2024/2025 @ UKSW</a>
+                        <a href="#teaching-2024-2025-uksw">2024/2025 @ UKSW</a>
+                        <a href="#teaching-2025-2026-uksw">2025/2026 @ UKSW</a>
+                        <a href="#teaching-2025-2026-pw">2025/2026 @ PW</a>
                     </div>
                 </div>
                 <a href="#business" class="nav-link">Business</a>
-                <a href="#blog" class="nav-link">Blog</a>
+                <div class="nav-dropdown">
+                    <a href="#blog" class="nav-link">Blog <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#blog-cheminformatics">Cheminformatics</a>
+                        <a href="#blog-sports">Sports</a>
+                        <a href="#blog-travelling">Travelling</a>
+                    </div>
+                </div>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
             <div class="nav-toggle" id="nav-toggle">
@@ -78,24 +89,7 @@
             <div class="container">
                 <h2 class="section-title">Scientific News</h2>
                 <div class="news-grid">
-                    <article class="news-item">
-                        <div class="news-date">March 2024</div>
-                        <h3>Latest Research Publication</h3>
-                        <p>Our recent paper on [Research Topic] has been accepted for publication in [Journal Name].</p>
-                        <a href="#" class="news-link">Read more</a>
-                    </article>
-                    <article class="news-item">
-                        <div class="news-date">February 2024</div>
-                        <h3>Conference Presentation</h3>
-                        <p>Presented findings at the International Conference on [Field] in [Location].</p>
-                        <a href="#" class="news-link">Read more</a>
-                    </article>
-                    <article class="news-item">
-                        <div class="news-date">January 2024</div>
-                        <h3>New Research Grant</h3>
-                        <p>Received funding for the project "[Project Name]" from [Funding Agency].</p>
-                        <a href="#" class="news-link">Read more</a>
-                    </article>
+                    <!-- News items will be loaded dynamically from JSON files -->
                 </div>
             </div>
         </section>
@@ -148,54 +142,187 @@
                 <h2 class="section-title">Research</h2>
                 <div class="research-tabs">
                     <button class="tab-button active" data-tab="projects">Projects</button>
-                    <button class="tab-button" data-tab="articles">Articles</button>
+                    <button class="tab-button" data-tab="articles">Publications</button>
+                    <button class="tab-button" data-tab="tools">Tools</button>
+                    <button class="tab-button" data-tab="funding">Funding</button>
                     <button class="tab-button" data-tab="community">Community</button>
                 </div>
 
                 <div id="research-projects" class="tab-content active">
                     <h3>Research Projects</h3>
                     <div class="projects-grid">
-                        <div class="project-card">
-                            <h4>Project Title 1</h4>
-                            <p class="project-duration">2023 - Present</p>
-                            <p>Brief description of the research project, its objectives, and key findings.</p>
-                            <div class="project-tags">
-                                <span class="tag">[Tag 1]</span>
-                                <span class="tag">[Tag 2]</span>
-                            </div>
-                        </div>
-                        <div class="project-card">
-                            <h4>Project Title 2</h4>
-                            <p class="project-duration">2022 - 2023</p>
-                            <p>Brief description of the research project, its objectives, and key findings.</p>
-                            <div class="project-tags">
-                                <span class="tag">[Tag 1]</span>
-                                <span class="tag">[Tag 3]</span>
-                            </div>
-                        </div>
+                        <!-- Projects will be loaded dynamically from JSON files -->
                     </div>
                 </div>
 
                 <div id="research-articles" class="tab-content">
                     <h3>Publications</h3>
-                    <div class="publications-list">
-                        <div class="publication-item">
-                            <h4>[Paper Title]</h4>
-                            <p class="publication-authors">[Authors], <strong>Your Name</strong>, [Other Authors]</p>
-                            <p class="publication-journal"><em>[Journal Name]</em>, [Year]</p>
-                            <div class="publication-links">
-                                <a href="#" class="pub-link">PDF</a>
-                                <a href="#" class="pub-link">DOI</a>
-                                <a href="#" class="pub-link">Code</a>
+                    <!-- Publications will be loaded dynamically from JSON files -->
+                </div>
+
+                <div id="research-tools" class="tab-content">
+                    <h3>Research Tools & Software</h3>
+                    <div class="tools-content">
+                        <div class="tools-category">
+                            <h4><i class="fas fa-code"></i> Programming Languages</h4>
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <span class="tool-name">Python</span>
+                                    <span class="tool-description">Data analysis, ML, scientific computing</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">R</span>
+                                    <span class="tool-description">Statistical analysis and visualization</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">MATLAB</span>
+                                    <span class="tool-description">Mathematical modeling and simulation</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">C++</span>
+                                    <span class="tool-description">High-performance computing</span>
+                                </div>
                             </div>
                         </div>
-                        <div class="publication-item">
-                            <h4>[Paper Title]</h4>
-                            <p class="publication-authors"><strong>Your Name</strong>, [Co-authors]</p>
-                            <p class="publication-journal"><em>[Journal Name]</em>, [Year]</p>
-                            <div class="publication-links">
-                                <a href="#" class="pub-link">PDF</a>
-                                <a href="#" class="pub-link">DOI</a>
+
+                        <div class="tools-category">
+                            <h4><i class="fas fa-brain"></i> Machine Learning & AI</h4>
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <span class="tool-name">TensorFlow</span>
+                                    <span class="tool-description">Deep learning framework</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">PyTorch</span>
+                                    <span class="tool-description">Neural network development</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">Scikit-learn</span>
+                                    <span class="tool-description">Machine learning algorithms</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">Keras</span>
+                                    <span class="tool-description">High-level neural networks API</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tools-category">
+                            <h4><i class="fas fa-chart-bar"></i> Data Analysis & Visualization</h4>
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <span class="tool-name">Pandas</span>
+                                    <span class="tool-description">Data manipulation and analysis</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">NumPy</span>
+                                    <span class="tool-description">Numerical computing</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">Matplotlib</span>
+                                    <span class="tool-description">Data visualization</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">Seaborn</span>
+                                    <span class="tool-description">Statistical visualization</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tools-category">
+                            <h4><i class="fas fa-microscope"></i> Specialized Software</h4>
+                            <div class="tools-grid">
+                                <div class="tool-item">
+                                    <span class="tool-name">ImageJ/FIJI</span>
+                                    <span class="tool-description">Image processing and analysis</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">VMD</span>
+                                    <span class="tool-description">Molecular visualization</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">Mathematica</span>
+                                    <span class="tool-description">Symbolic computation</span>
+                                </div>
+                                <div class="tool-item">
+                                    <span class="tool-name">GROMACS</span>
+                                    <span class="tool-description">Molecular dynamics simulations</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="research-funding" class="tab-content">
+                    <h3>Research Funding & Grants</h3>
+                    <div class="funding-content">
+                        <div class="funding-section">
+                            <h4>Current Funding</h4>
+                            <div class="grant-item">
+                                <div class="grant-header">
+                                    <h5>[Grant Title]</h5>
+                                    <span class="grant-amount">€[Amount]</span>
+                                </div>
+                                <p class="grant-agency">[Funding Agency] | [Start Year] - [End Year]</p>
+                                <p class="grant-role">Role: [Principal Investigator/Co-Investigator]</p>
+                                <p class="grant-description">Brief description of the funded research project and its objectives.</p>
+                            </div>
+                            
+                            <div class="grant-item">
+                                <div class="grant-header">
+                                    <h5>[Another Grant Title]</h5>
+                                    <span class="grant-amount">€[Amount]</span>
+                                </div>
+                                <p class="grant-agency">[Funding Agency] | [Start Year] - [End Year]</p>
+                                <p class="grant-role">Role: [Principal Investigator/Co-Investigator]</p>
+                                <p class="grant-description">Brief description of the funded research project and its objectives.</p>
+                            </div>
+                        </div>
+
+                        <div class="funding-section">
+                            <h4>Past Funding</h4>
+                            <div class="grant-item">
+                                <div class="grant-header">
+                                    <h5>[Completed Grant Title]</h5>
+                                    <span class="grant-amount">€[Amount]</span>
+                                </div>
+                                <p class="grant-agency">[Funding Agency] | [Start Year] - [End Year]</p>
+                                <p class="grant-role">Role: [Principal Investigator/Co-Investigator]</p>
+                                <p class="grant-description">Description of completed research and key outcomes achieved.</p>
+                            </div>
+                        </div>
+
+                        <div class="funding-section">
+                            <h4>Funding Applications & Fellowships</h4>
+                            <div class="applications-grid">
+                                <div class="application-item">
+                                    <h6>[Fellowship Name]</h6>
+                                    <p class="application-status">Status: [Pending/Under Review]</p>
+                                    <p class="application-agency">[Agency/Institution]</p>
+                                </div>
+                                <div class="application-item">
+                                    <h6>[Grant Application]</h6>
+                                    <p class="application-status">Status: [Submitted/In Progress]</p>
+                                    <p class="application-agency">[Agency/Institution]</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="funding-summary">
+                            <h4>Funding Summary</h4>
+                            <div class="summary-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">€[Total Amount]</span>
+                                    <span class="stat-label">Total Funding Secured</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">[Number]</span>
+                                    <span class="stat-label">Active Funding</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">[Number]</span>
+                                    <span class="stat-label">Completed Projects</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -235,34 +362,7 @@
             <div class="container">
                 <h2 class="section-title">Teaching</h2>
                 <div class="teaching-content">
-                    <div class="teaching-intro">
-                        <p>I am passionate about education and committed to fostering the next generation of researchers and professionals in my field.</p>
-                    </div>
-                    
-                    <div class="teaching-section">
-                        <h3>2024/2025 Academic Year @ UKSW</h3>
-                        <div class="courses-grid">
-                            <div class="course-card">
-                                <h4>[Course Name 1]</h4>
-                                <p class="course-level">Undergraduate</p>
-                                <p class="course-semester">Fall 2024</p>
-                                <p>Course description and learning objectives.</p>
-                                <a href="#" class="course-link">Course Materials</a>
-                            </div>
-                            <div class="course-card">
-                                <h4>[Course Name 2]</h4>
-                                <p class="course-level">Graduate</p>
-                                <p class="course-semester">Spring 2025</p>
-                                <p>Course description and learning objectives.</p>
-                                <a href="#" class="course-link">Course Materials</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="teaching-philosophy">
-                        <h3>Teaching Philosophy</h3>
-                        <p>[Your teaching philosophy and approach to education goes here.]</p>
-                    </div>
+                    <!-- Teaching content will be loaded dynamically from JSON files -->
                 </div>
             </div>
         </section>
@@ -319,26 +419,7 @@
                     </div>
                     
                     <div class="blog-posts">
-                        <article class="blog-post">
-                            <div class="post-date">March 15, 2024</div>
-                            <h3><a href="#">The Future of [Your Research Area]</a></h3>
-                            <p>An exploration of emerging trends and future directions in our field...</p>
-                            <a href="#" class="read-more">Read more</a>
-                        </article>
-                        
-                        <article class="blog-post">
-                            <div class="post-date">February 28, 2024</div>
-                            <h3><a href="#">Reflections on Academic Collaboration</a></h3>
-                            <p>Thoughts on building meaningful partnerships in research...</p>
-                            <a href="#" class="read-more">Read more</a>
-                        </article>
-                        
-                        <article class="blog-post">
-                            <div class="post-date">January 20, 2024</div>
-                            <h3><a href="#">Teaching in the Digital Age</a></h3>
-                            <p>How technology is transforming education and research training...</p>
-                            <a href="#" class="read-more">Read more</a>
-                        </article>
+                        <!-- Blog posts will be loaded dynamically from JSON files -->
                     </div>
                 </div>
             </div>
@@ -428,5 +509,9 @@
     </footer>
 
     <script src="script.js"></script>
+    
+    <!-- DOI Badge Scripts -->
+    <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+    <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 </body>
 </html>
