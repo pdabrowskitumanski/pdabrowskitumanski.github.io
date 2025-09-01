@@ -690,6 +690,122 @@ body {
     line-height: 1.4;
 }
 
+/* Tool Link Styles */
+.tool-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.tool-link:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.tool-image {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border: 1px solid #e1e5e9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-link:hover .tool-image {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.2);
+}
+
+.tool-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Responsive adjustments for tool images */
+@media (max-width: 768px) {
+    .tool-image {
+        height: 100px;
+    }
+    
+    .tool-item {
+        padding: 15px;
+    }
+}
+
+/* Standardized Image Sizing */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #3498db;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Enhanced publication figure standardization */
+.publication-figure img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.publication-figure img:hover {
+    transform: scale(1.02);
+}
+
+/* General image standardization */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Responsive image adjustments */
+@media (max-width: 768px) {
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .publication-figure img {
+        height: 150px;
+    }
+    
+    .tool-image {
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .publication-figure img {
+        height: 120px;
+    }
+    
+    .tool-image {
+        height: 70px;
+    }
+}
+
 /* Funding Section */
 .funding-content {
     margin-top: 30px;

@@ -1,0 +1,49 @@
+{
+  "news": [
+    {
+      "id": "jcm-review-2025",
+      "date": "2025-04-24",
+      "title": "Review in Journal of Clinical Medicine",
+      "description": "Our recent paper on 'Advanced Topological Methods in Biological Pattern Recognition' has been accepted for publication in Nature Computational Biology.",
+      "link": "#research-articles",
+      "type": "publication",
+      "featured": true
+    },
+    {
+      "id": "conference-presentation-2024",
+      "date": "2024-02-28",
+      "title": "Conference Presentation",
+      "description": "Presented findings on 'Deep Learning for Artificial Cell Simulation' at the International Conference on Computational Biology in Boston, MA.",
+      "link": "https://example-conference.org/proceedings/2024",
+      "type": "conference",
+      "featured": false
+    },
+    {
+      "id": "research-grant-2024",
+      "date": "2024-01-20",
+      "title": "New Research Grant Awarded",
+      "description": "Received funding for the project 'Topological Analysis of Biological Networks' from the National Science Foundation (NSF).",
+      "link": "#research-funding",
+      "type": "funding",
+      "featured": false
+    },
+    {
+      "id": "collaboration-announcement",
+      "date": "2023-12-10",
+      "title": "New International Collaboration",
+      "description": "Established research partnership with the University of Cambridge on 'Mathematical Models in Systems Biology'.",
+      "link": "https://www.cam.ac.uk/research/news/cambridge-collaboration",
+      "type": "collaboration",
+      "featured": true
+    },
+    {
+      "id": "award-recognition",
+      "date": "2023-11-05",
+      "title": "Early Career Researcher Award",
+      "description": "Honored to receive the Young Scientist Award from the European Mathematical Society for contributions to applied topology.",
+      "link": "mailto:awards@europeanmathsociety.org",
+      "type": "award",
+      "featured": true
+    }
+  ]
+} 

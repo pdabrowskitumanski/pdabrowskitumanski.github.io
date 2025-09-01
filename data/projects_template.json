@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "id": "topology-biology",
+      "title": "Topology in Biology 2022",
+      "duration": "2020 - Present",
+      "status": "active",
+      "description": "Investigating topological structures and their applications in biological systems, focusing on protein folding patterns, DNA configurations, and cellular organization. This project explores how mathematical topology can provide insights into biological processes at multiple scales.",
+      "detailed_description": "This interdisciplinary project combines advanced mathematical concepts with biological data analysis. We use persistent homology and topological data analysis (TDA) to understand complex biological structures. Current focus areas include protein folding landscapes, chromosomal organization patterns, and network topology in biological systems.",
+      "tags": ["Topology", "Biology", "Mathematics", "TDA"],
+      "funding": "NSF Grant #1234567",
+      "collaborators": ["Dr. Biology Collaborator", "Dr. Data Science Expert"],
+      "publications": 4,
+      "github_repo": "https://github.com/yourusername/topology-biology",
+      "website": "#",
+      "images": [],
+      "key_achievements": [
+        "Developed novel TDA methods for protein analysis",
+        "Published 4 papers in top-tier journals",
+        "Created open-source software tools",
+        "Established international collaboration network"
+      ]
+    },
+    {
+      "id": "deep-learning-artificial-cell",
+      "title": "Deep Learning for Artificial Cell",
+      "duration": "2022 - Present",
+      "status": "active",
+      "description": "Developing machine learning models to simulate cellular behavior and create artificial cellular systems using deep neural networks. The project aims to build predictive models of cellular processes and design synthetic biological systems.",
+      "detailed_description": "This cutting-edge project applies state-of-the-art deep learning techniques to model and simulate cellular behavior. We develop neural network architectures that can predict cellular responses, optimize synthetic biological circuits, and design artificial cellular systems with desired properties.",
+      "tags": ["Deep Learning", "Artificial Cell", "AI", "Synthetic Biology"],
+      "funding": "EU Horizon Grant #H2020-987654",
+      "collaborators": ["Dr. AI Research Lead", "Dr. Synthetic Biology Expert"],
+      "publications": 2,
+      "github_repo": "https://github.com/yourusername/dl-artificial-cell",
+      "website": "#",
+      "images": [],
+      "key_achievements": [
+        "Developed novel neural architectures for cellular modeling",
+        "Created first AI-designed artificial cell prototype",
+        "Established industry partnerships",
+        "Filed 2 patent applications"
+      ]
+    },
+    {
+      "id": "deep-learning-medical-imaging",
+      "title": "Deep Learning in Medical Imaging",
+      "duration": "2021 - Present",
+      "status": "active",
+      "description": "Applying convolutional neural networks and advanced AI techniques for medical image analysis and diagnostic applications. Focus on improving diagnostic accuracy and developing automated screening tools.",
+      "detailed_description": "This clinical-focused project develops AI systems for medical diagnosis using advanced computer vision techniques. We work on automated detection of diseases in medical images, including MRI, CT scans, and histopathological images. The goal is to improve diagnostic accuracy and speed while reducing healthcare costs.",
+      "tags": ["Medical Imaging", "Deep Learning", "Healthcare", "Computer Vision"],
+      "funding": "Medical Research Council Grant #MR-456789",
+      "collaborators": ["Dr. Medical Imaging Specialist", "Dr. Clinical Research Director"],
+      "publications": 3,
+      "github_repo": "https://github.com/yourusername/medical-ai",
+      "website": "#",
+      "images": [],
+      "key_achievements": [
+        "Achieved 95% diagnostic accuracy on test datasets",
+        "Deployed system in 3 hospitals for clinical trials",
+        "Reduced diagnosis time by 40%",
+        "Published in top medical journals"
+      ]
+    },
+    {
+      "id": "disentangling-knot-theory",
+      "title": "Disentangling Knot Theory",
+      "duration": "2019 - 2023",
+      "status": "completed",
+      "description": "Mathematical investigation into knot theory applications and computational methods for analyzing complex topological structures. This project developed new algorithms for knot classification and practical applications.",
+      "detailed_description": "This theoretical mathematics project focused on developing new computational approaches to knot theory problems. We created algorithms for knot classification, studied knot invariants, and explored applications to polymer physics and molecular biology.",
+      "tags": ["Knot Theory", "Topology", "Mathematics", "Computational Methods"],
+      "funding": "Royal Society Grant #RS-789123",
+      "collaborators": ["Dr. Pure Mathematics Expert", "Dr. Computational Topologist"],
+      "publications": 5,
+      "github_repo": "https://github.com/yourusername/knot-theory-tools",
+      "website": "#",
+      "images": [],
+      "key_achievements": [
+        "Developed new knot classification algorithms",
+        "Solved 3 long-standing mathematical problems",
+        "Created widely-used computational tools",
+        "Received best paper award at topology conference"
+      ]
+    },
+    {
+      "id": "dynamics-entangled-polymers",
+      "title": "Dynamics of Entangled Polymers",
+      "duration": "2018 - 2022",
+      "status": "completed",
+      "description": "Studying the physical and mathematical properties of polymer entanglements and their dynamic behavior under various conditions. This project combined theoretical modeling with experimental validation.",
+      "detailed_description": "This interdisciplinary project investigated the complex dynamics of entangled polymer systems using both mathematical modeling and physical experiments. We developed new theoretical frameworks for understanding polymer behavior and validated them through laboratory experiments.",
+      "tags": ["Polymers", "Dynamics", "Physics", "Mathematical Modeling"],
+      "funding": "Materials Science Foundation Grant #MSF-321654",
+      "collaborators": ["Dr. Polymer Physics Expert", "Dr. Materials Science Researcher"],
+      "publications": 6,
+      "github_repo": "https://github.com/yourusername/polymer-dynamics",
+      "website": "#",
+      "images": [],
+      "key_achievements": [
+        "Developed predictive models for polymer behavior",
+        "Published 6 high-impact papers",
+        "Created new experimental techniques",
+        "Licensed technology to industry partners"
+      ]
+    }
+  ]
+} 
