@@ -1501,10 +1501,63 @@ async function loadTeaching(yearFilter = null, institutionFilter = null, showCur
 function createTeachingContent(teachingData, yearFilter = null, institutionFilter = null, showCurrentOnly = false) {
     const teachingContainer = document.querySelector('.teaching-content');
     
-    // If showing current only and no current courses, show special message
+    // If showing current only and no current courses, show upcoming courses instead
     if (showCurrentOnly && teachingData.courses.filter(course => course.status === 'current').length === 0) {
-        showNoCurrentCoursesMessage();
-        return;
+        const upcomingCourses = teachingData.courses.filter(course => course.status === 'upcoming');
+        if (upcomingCourses.length > 0) {
+            // Show upcoming courses instead of current courses
+            teachingContainer.innerHTML = `
+                <div class="teaching-intro">
+                    <p>${teachingData.teaching.intro}</p>
+                </div>
+                
+                <div class="teaching-section">
+                    <h3>Upcoming Courses</h3>
+                    <div class="courses-grid">
+                        ${upcomingCourses.map(course => createCourseCard(course)).join('')}
+                    </div>
+                </div>
+
+                <div class="teaching-philosophy">
+                    <h3>Teaching Philosophy</h3>
+                    <p>${teachingData.teaching.philosophy}</p>
+                </div>
+
+                ${teachingData.teaching.supervision ? `
+                <div class="supervision-section">
+                    <h3>Student Supervision</h3>
+                    <div class="supervision-stats">
+                        <div class="supervision-stat">
+                            <span class="stat-number">${teachingData.teaching.supervision.master_students}</span>
+                            <span class="stat-label">Master Students</span>
+                        </div>
+                        <div class="supervision-stat">
+                            <span class="stat-number">${teachingData.teaching.supervision.undergraduate_projects}</span>
+                            <span class="stat-label">Undergraduate Projects</span>
+                        </div>
+                    </div>
+                </div>
+                ` : ''}
+
+                ${teachingData.teaching.teaching_awards && teachingData.teaching.teaching_awards.length > 0 ? `
+                <div class="teaching-awards">
+                    <h3>Teaching Recognition</h3>
+                    <div class="awards-list">
+                        ${teachingData.teaching.teaching_awards.map(award => `
+                            <div class="award-item">
+                                <h4>${award.title}</h4>
+                                <p>${award.institution} • ${award.year}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                ` : ''}
+            `;
+            return;
+        } else {
+            showNoCurrentCoursesMessage();
+            return;
+        }
     }
     
     // Separate courses by status
@@ -1559,10 +1612,10 @@ function createTeachingContent(teachingData, yearFilter = null, institutionFilte
         <div class="supervision-section">
             <h3>Student Supervision</h3>
             <div class="supervision-stats">
-                <div class="supervision-stat">
-                    <span class="stat-number">${teachingData.teaching.supervision.phd_students}</span>
-                    <span class="stat-label">PhD Students</span>
-                </div>
+                // <div class="supervision-stat">
+                //     <span class="stat-number">${teachingData.teaching.supervision.phd_students}</span>
+                //     <span class="stat-label">PhD Students</span>
+                // </div>
                 <div class="supervision-stat">
                     <span class="stat-number">${teachingData.teaching.supervision.master_students}</span>
                     <span class="stat-label">Master Students</span>
@@ -1596,6 +1649,13 @@ function createCourseCard(course) {
     const featuredClass = course.featured ? 'featured-course' : '';
     const tags = course.tags ? course.tags.map(tag => `<span class="course-tag">${tag}</span>`).join('') : '';
     
+    // Provide default values for missing fields
+    const credits = course.credits || 'TBD';
+    const students = course.students || 'TBD';
+    const schedule = course.schedule || 'TBD';
+    const room = course.room || 'TBD';
+    const description = course.description || 'Course details will be available soon.';
+    
     return `
         <div class="course-card ${statusClass} ${featuredClass}" onclick="loadCourse('${course.id}')">
             <div class="course-header">
@@ -1604,12 +1664,12 @@ function createCourseCard(course) {
             </div>
             <div class="course-meta">
                 <span class="course-semester">${course.semester} ${course.year}</span>
-                <span class="course-credits">${course.credits} credits • ${course.students} students</span>
+                <span class="course-credits">${credits} credits • ${students} students</span>
             </div>
-            <p class="course-description">${course.description}</p>
+            <p class="course-description">${description}</p>
             <div class="course-details">
-                <span class="course-schedule"><i class="fas fa-clock"></i> ${course.schedule}</span>
-                <span class="course-room"><i class="fas fa-map-marker-alt"></i> ${course.room}</span>
+                <span class="course-schedule"><i class="fas fa-clock"></i> ${schedule}</span>
+                <span class="course-room"><i class="fas fa-map-marker-alt"></i> ${room}</span>
             </div>
             ${tags ? `<div class="course-tags">${tags}</div>` : ''}
             <div class="course-action">
