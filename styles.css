@@ -695,9 +695,11 @@ body {
     text-decoration: none;
     color: inherit;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
     height: 100%;
     transition: all 0.3s ease;
+    gap: 15px;
 }
 
 .tool-link:hover {
@@ -706,7 +708,7 @@ body {
 }
 
 .tool-image {
-    width: 100%;
+    width: 33.333%;
     height: 120px;
     object-fit: cover;
     border-radius: 6px;
@@ -714,6 +716,7 @@ body {
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     border: 1px solid #e1e5e9;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex-shrink: 0;
 }
 
 .tool-link:hover .tool-image {
@@ -726,12 +729,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 0;
 }
 
 /* Responsive adjustments for tool images */
 @media (max-width: 768px) {
     .tool-image {
         height: 100px;
+        width: 33.333%;
     }
     
     .tool-item {
@@ -788,6 +793,7 @@ img {
     
     .tool-image {
         height: 80px;
+        width: 33.333%;
     }
 }
 
@@ -803,6 +809,7 @@ img {
     
     .tool-image {
         height: 70px;
+        width: 33.333%;
     }
 }
 
