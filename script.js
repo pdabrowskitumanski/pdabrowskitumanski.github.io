@@ -1578,28 +1578,22 @@ function createTeachingContent(teachingData, yearFilter = null, institutionFilte
         
         ${currentCourses.length > 0 ? `
         <div class="teaching-section">
-            <h3>Current Courses - 2024/2025 @ UKSW</h3>
-            <div class="courses-grid">
-                ${currentCourses.map(course => createCourseCard(course)).join('')}
-            </div>
+            <h3>Current Courses</h3>
+            ${groupCoursesByInstitutionAndYear(currentCourses)}
         </div>
         ` : ''}
 
         ${upcomingCourses.length > 0 ? `
         <div class="teaching-section">
             <h3>Upcoming Courses</h3>
-            <div class="courses-grid">
-                ${upcomingCourses.map(course => createCourseCard(course)).join('')}
-            </div>
+            ${groupCoursesByInstitutionAndYear(upcomingCourses)}
         </div>
         ` : ''}
 
         ${pastCourses.length > 0 ? `
         <div class="teaching-section">
             <h3>Past Courses</h3>
-            <div class="courses-grid">
-                ${pastCourses.map(course => createCourseCard(course)).join('')}
-            </div>
+            ${groupCoursesByInstitutionAndYear(pastCourses)}
         </div>
         ` : ''}
 
@@ -1612,10 +1606,6 @@ function createTeachingContent(teachingData, yearFilter = null, institutionFilte
         <div class="supervision-section">
             <h3>Student Supervision</h3>
             <div class="supervision-stats">
-                // <div class="supervision-stat">
-                //     <span class="stat-number">${teachingData.teaching.supervision.phd_students}</span>
-                //     <span class="stat-label">PhD Students</span>
-                // </div>
                 <div class="supervision-stat">
                     <span class="stat-number">${teachingData.teaching.supervision.master_students}</span>
                     <span class="stat-label">Master Students</span>
@@ -1642,6 +1632,36 @@ function createTeachingContent(teachingData, yearFilter = null, institutionFilte
         </div>
         ` : ''}
     `;
+}
+
+function groupCoursesByInstitutionAndYear(courses) {
+    if (!courses || courses.length === 0) return '';
+    
+    // Group courses by institution and year
+    const grouped = {};
+    courses.forEach(course => {
+        const key = `${course.year} @ ${course.institution}`;
+        if (!grouped[key]) {
+            grouped[key] = [];
+        }
+        grouped[key].push(course);
+    });
+    
+    // Create HTML for each group
+    let html = '';
+    Object.keys(grouped).sort().forEach(key => {
+        const coursesInGroup = grouped[key];
+        html += `
+            <div class="course-group">
+                <h3 class="course-group-header">${key}</h3>
+                <div class="courses-grid">
+                    ${coursesInGroup.map(course => createCourseCard(course)).join('')}
+                </div>
+            </div>
+        `;
+    });
+    
+    return html;
 }
 
 function createCourseCard(course) {
