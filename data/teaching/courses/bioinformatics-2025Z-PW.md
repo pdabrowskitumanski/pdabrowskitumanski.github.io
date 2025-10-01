@@ -15,7 +15,7 @@
 
 | Week | Date | Topic | Slides | Lecture Notebook | Lab |
 |------|------|-------|--------|------------|----------|
-| 1 | Oct 1 | Central dogma | [Slides L01](https://github.com/pdabrowskitumanski/pdabrowskitumanski.github.io/blob/main/data/teaching/courses/bioinformatics2025/Lecture01) | [Sequences manipulation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/lectures/01_Introduction.ipynb) | [Sequences own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/01_Sequences.ipynb) |
+| 1 | Oct 1 | Central dogma | [Slides L01](https://github.com/pdabrowskitumanski/pdabrowskitumanski.github.io/blob/main/data/teaching/courses/bioinformatics2025/Lecture01.pptx) | [Sequences manipulation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/lectures/01_Introduction.ipynb) | [Sequences own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/01_Sequences.ipynb) |
 
 ---
 
