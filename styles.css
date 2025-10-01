@@ -750,6 +750,64 @@ body {
     height: 2px;
 }
 
+/* Table Styling for Markdown Content */
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-table th {
+    background: #3498db !important;
+    color: white !important;
+    font-weight: 600 !important;
+    padding: 12px 15px !important;
+    text-align: left !important;
+    border: none !important;
+    font-size: 0.9rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+/* More specific selectors to override any conflicting styles */
+.course-modal .course-table th,
+.blog-modal .course-table th,
+.course-table thead th {
+    background: #3498db !important;
+    color: white !important;
+    font-weight: 600 !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Ensure table header cells are always visible */
+.course-table th * {
+    color: white !important;
+}
+
+.course-table thead tr th {
+    background: #3498db !important;
+    color: white !important;
+}
+
+.course-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ecf0f1;
+    color: #2c3e50;
+    background: white;
+}
+
+.course-table tr:hover td {
+    background: #f8f9fa;
+}
+
+.course-table tr:last-child td {
+    border-bottom: none;
+}
+
 .course-group {
     margin-bottom: 40px;
 }
