@@ -15,8 +15,9 @@
 
 | Week | Date | Topic | Slides | Lecture Notebook | Lab |
 |------|------|-------|--------|------------|----------|
-| 1 | Oct 1 | Central dogma | [Slides L01](https://github.com/pdabrowskitumanski/pdabrowskitumanski.github.io/blob/main/data/teaching/courses/bioinformatics2025/Lecture01.pptx) | [Sequences manipulation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/lectures/01_Introduction.ipynb) | [Sequences own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/01_sequences.ipynb) |
+| 1 | Oct 2 | Central dogma | [Slides L01](https://github.com/pdabrowskitumanski/pdabrowskitumanski.github.io/blob/main/data/teaching/courses/bioinformatics2025/Lecture01.pptx) | [Sequences manipulation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/lectures/01_Introduction.ipynb) | [Sequences own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/01_sequences.ipynb) |
+| 2 | Oct 9 | Statistics in Bioinformatics | [Slides L02](https://github.com/pdabrowskitumanski/pdabrowskitumanski.github.io/blob/main/data/teaching/courses/bioinformatics2025/Lecture02.pptx) | --- | [Statistics own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02_statistics.ipynb) |
 
 ---
 
-**Last Updated:** October 1st 2025
+**Last Updated:** October 9th 2025
