@@ -1858,14 +1858,19 @@ img {
     text-decoration: none;
     font-weight: 500;
     border-radius: 4px;
-    padding: 2px 6px;
+    padding: 4px 8px;
     transition: all 0.2s ease;
+    display: inline-block;
+    background: #f8f9fa;
+    border: 1px solid #e1e5e9;
 }
 
 .course-table a:hover {
     background-color: var(--primary-color);
     color: white;
     text-decoration: none;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* Special styling for different link types */
@@ -1894,6 +1899,22 @@ img {
 .course-table a[href*="paper"] {
     background: #f8d7da;
     color: #721c24;
+}
+
+/* PDF links styling */
+.course-table a[href*=".pdf"],
+.course-table a[href*="examples"] {
+    background: #e3f2fd;
+    color: #1976d2;
+    border: 1px solid #bbdefb;
+    font-weight: 600;
+}
+
+.course-table a[href*=".pdf"]:hover,
+.course-table a[href*="examples"]:hover {
+    background: #1976d2;
+    color: white;
+    border-color: #1976d2;
 }
 
 /* Week column special styling */

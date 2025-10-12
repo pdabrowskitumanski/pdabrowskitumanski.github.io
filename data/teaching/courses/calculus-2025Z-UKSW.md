@@ -24,15 +24,19 @@ Osoba, która uzyska największą liczbę punktów, otrzymuje ocenę 4.5. Kolejn
 
 Ocenę mozna podwyzszyć o dowolnie podczas odpowiedzi ustnej, odbywającej się w ostatnim tygodniu zajęć.
 
-## Tygodniowy plan i materiały
-
-| Tydzień | Daty | Temat | Notatki | Kartkówka | Zadania grupowe |
-|------|------|-------|--------|------------|----------|
-| 1 | 3-10.10 | Układy równań |  |  |  |
-| 2 | 13-17.10 | Funkcje ciągłe |  |  |  |
-| 3 | 20-24.10 | Ciągłość i granice |  |  |  |
-| 4 | 27-31.10 | Pochodne I |  |  |  |
+## Materiały dydaktyczne
 
 ---
 
-**Ostatnia aktualizacja:** 2.10.2025
+## Tygodniowy plan i materiały
+
+| Tydzień | Daty | Temat | Notatki | Kartkówka | Zadania grupowe | Zadania przygotowawcze |
+|------|------|-------|--------|------------|----------|----------|
+| 1 | 3-10.10 | Układy równań | [Notatki](data/teaching/courses/calculus-2025Z/notes1.pdf) |  | [Grupowe](data/teaching/courses/calculus-2025Z/group1.pdf) | [Przykłady](data/teaching/courses/calculus-2025Z/examples1.pdf) |
+| 2 | 13-17.10 | Funkcje ciągłe |  |  |  |  |
+| 3 | 20-24.10 | Ciągłość i granice |  |  |  |  |
+| 4 | 27-31.10 | Pochodne I |  |  |  |  |
+
+---
+
+**Ostatnia aktualizacja:** 12.10.2025
