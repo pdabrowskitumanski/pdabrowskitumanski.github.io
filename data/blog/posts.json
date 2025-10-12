@@ -1,4 +1,15 @@
 {
   "posts": [
+    {
+      "id": "tanimoto_myths",
+      "title": "5 myths about Tanimoto similarity and Morgan Fingerprints",
+      "date": "2025-10-12",
+      "category": "cheminformatics",
+      "excerpt": "An exploration of 5 myths about Tanimoto similarity and Morgan Fingerprints...",
+      "content": "data/blog/content/tanimoto_myths.md",
+      "tags": ["chemistry", "fingerprints", "similarity", "Tanimoto"],
+      "featured": true,
+      "read_time": "8 min read"
+    }
   ]
 } 

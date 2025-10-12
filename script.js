@@ -1050,6 +1050,9 @@ function convertMarkdownToHTML(markdown) {
     // Handle bold and italic
     html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
     html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+    // Handle underscore-based bold and italic
+    html = html.replace(/__(.*?)__/g, '<strong>$1</strong>');
+    html = html.replace(/_(.*?)_/g, '<em>$1</em>');
     
     // Handle inline code
     html = html.replace(/`([^`]+)`/g, '<code>$1</code>');
