@@ -13,15 +13,15 @@
 
 ## Weekly Schedule & Materials
 
-| Week | Date | Topic | Slides | Lecture Notebook | Lab |
-|------|------|-------|--------|------------|----------|
-| 1 | Oct 2 | Central dogma | [Slides L01](data/teaching/courses/bioinformatics2025/Lecture01.pptx) | [Sequences manipulation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/lectures/01_Introduction.ipynb) | [Sequences own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/01_sequences.ipynb) |
-| 2 | Oct 9 | Statistics in Bioinformatics | [Slides L02](data/teaching/courses/bioinformatics2025/Lecture02.pptx) | --- | [Statistics own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02_statistics.ipynb) |
-| 3 | Oct 16 | Data visualization | | | |
-| 4 | Oct 16 | Pairwise sequence alignment | | | |
-| 5 | Oct 23 | MSA and Phylogenetics | | | |
-| -- | Oct 23 -? | FIRST ASIGNMENT | | | |
-| 6 | Oct 30 | Motif finding & HMM | | | |
+| Week | Date | Topic | Slides | Lecture Notebook | Lab | Lab solutions |
+|------|------|-------|--------|------------|----------|----------|
+| 1 | Oct 2 | Central dogma | [Slides L01](data/teaching/courses/bioinformatics2025/Lecture01.pptx) | [Sequences manipulation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/lectures/01_Introduction.ipynb) | [Sequences own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/01_sequences.ipynb) | --- |
+| 2 | Oct 9 | Statistics in Bioinformatics | [Slides L02](data/teaching/courses/bioinformatics2025/Lecture02.pptx) | --- | [Statistics own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02_statistics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02_statistics_results.ipynb) |
+| 3 | Oct 16 | Data visualization | [Slides L03](data/teaching/courses/bioinformatics2025/Lecture03.pptx) | --- | [Dimension reduction](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/03_visualization.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/03_visualization_results.ipynb) |
+| 4 | Oct 16 | Pairwise sequence alignment | | | | --- |
+| 5 | Oct 23 | MSA and Phylogenetics | | | | --- |
+| -- | Oct 23 -? | FIRST ASIGNMENT | | | | --- |
+| 6 | Oct 30 | Motif finding & HMM | | | | --- |
 
 
 
