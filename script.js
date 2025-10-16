@@ -152,8 +152,22 @@ function activateResearchTab(tabName) {
         targetButton.classList.add('active');
         targetContent.classList.add('active');
         console.log(`✅ Activated tab: ${tabName}`);
+        
+        // Additional debugging for community tab
+        if (tabName === 'community') {
+            console.log(`🔬 Community tab activated. Content visibility:`, targetContent.style.display);
+            console.log(`🔬 Community tab classes:`, targetContent.className);
+            console.log(`🔬 Community content children:`, targetContent.children.length);
+        }
     } else {
         console.error(`❌ Could not activate tab: ${tabName}. Button found: ${!!targetButton}, Content found: ${!!targetContent}`);
+        
+        // Additional debugging for community tab
+        if (tabName === 'community') {
+            console.log(`🔬 Community tab debugging:`);
+            console.log(`  - All tab buttons:`, Array.from(tabButtons).map(btn => ({ text: btn.textContent, dataTab: btn.getAttribute('data-tab') })));
+            console.log(`  - All tab contents:`, Array.from(tabContents).map(content => ({ id: content.id, classes: content.className })));
+        }
     }
 }
 
@@ -583,8 +597,35 @@ function initIntersectionObserver() {
     }
 }
 
-// Initialize intersection observer when DOM is loaded
-document.addEventListener('DOMContentLoaded', initIntersectionObserver);
+// Function to re-initialize intersection observer after content is loaded
+function reinitIntersectionObserver() {
+    if ('IntersectionObserver' in window) {
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        // Observe elements that should animate in
+        document.querySelectorAll('.news-item, .project-card, .publication-item, .service-card, .blog-post').forEach(el => {
+            // Only apply animation styles if not already visible
+            if (el.style.opacity !== '1') {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            }
+        });
+    }
+}
 
 // Handle window resize
 window.addEventListener('resize', debounce(() => {
@@ -676,6 +717,9 @@ async function loadPublications() {
             const loadedCount = publicationsContainer.querySelectorAll('.publications-section').length;
             console.log(`✅ Successfully loaded ${loadedCount} publication sections`);
             // showNotification(`Loaded publications from ${loadedCount} time periods`, 'success');
+            
+            // Re-initialize intersection observer for new content
+            setTimeout(() => reinitIntersectionObserver(), 100);
         }
     } catch (error) {
         console.error('Error loading publications:', error);
@@ -829,6 +873,9 @@ async function loadBlogPosts(categoryFilter = null) {
         const filterDesc = categoryFilter ? ` in ${categoryFilter}` : '';
         console.log(`✅ Successfully loaded ${filteredPosts.length} blog posts${filterDesc}`);
         // showNotification(`Loaded ${filteredPosts.length} blog posts${filterDesc}!`, 'success');
+        
+        // Re-initialize intersection observer for new content
+        setTimeout(() => reinitIntersectionObserver(), 100);
     } catch (error) {
         console.error('Error loading blog posts:', error);
         showNotification('Failed to load blog posts', 'error');
@@ -1401,6 +1448,9 @@ async function loadNews() {
         
         console.log(`✅ Successfully loaded ${data.news.length} news items`);
         // showNotification(`Loaded ${data.news.length} news items`, 'success');
+        
+        // Re-initialize intersection observer for new content
+        setTimeout(() => reinitIntersectionObserver(), 100);
     } catch (error) {
         console.error('Error loading news:', error);
         showNotification('Failed to load news content', 'error');
@@ -1728,6 +1778,9 @@ async function loadProjects() {
         
         console.log('✅ Projects loaded from JSON file');
         // showNotification('Projects loaded from file!', 'success');
+        
+        // Re-initialize intersection observer for new content
+        setTimeout(() => reinitIntersectionObserver(), 100);
     } catch (error) {
         console.error('Error loading projects:', error);
         loadEmbeddedProjects();
@@ -1930,6 +1983,12 @@ function addNewBlogPost(postData) {
 window.loadCourse = loadCourse;
 window.closeCourseModal = closeCourseModal;
 
+// Test function for debugging community tab
+window.testCommunityTab = function() {
+    console.log('🧪 Testing community tab activation...');
+    activateResearchTab('community');
+};
+
 // Export functions for potential external use
 window.AcademicPortfolio = {
     activateResearchTab,
@@ -1944,5 +2003,6 @@ window.AcademicPortfolio = {
     loadCourse,
     closeCourseModal,
     addNewPublication,
-    addNewBlogPost
+    addNewBlogPost,
+    testCommunityTab
 }; 

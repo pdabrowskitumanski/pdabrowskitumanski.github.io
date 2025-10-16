@@ -1,6 +1,15 @@
 {
   "news": [
     {
+      "id": "neurips-2025",
+      "date": "2025-09-24",
+      "title": "Submission accepted to NeurIPS2025-AI4Science!",
+      "description": "The paper entitled Scaling High-Throughput Experimentation Unlocks Robust Reaction-Outcome Prediction, prepared by Molecule.One team was accepted for poster presentation at NeurIPS2025-AI4Science! Glad to had a small influence on the pipeline!",
+      "link": "#research-articles",
+      "type": "publication",
+      "featured": true
+    },
+    {
       "id": "jcm-review-2025",
       "date": "2025-04-24",
       "title": "Review in Journal of Clinical Medicine",
