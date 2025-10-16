@@ -1983,12 +1983,6 @@ function addNewBlogPost(postData) {
 window.loadCourse = loadCourse;
 window.closeCourseModal = closeCourseModal;
 
-// Test function for debugging community tab
-window.testCommunityTab = function() {
-    console.log('🧪 Testing community tab activation...');
-    activateResearchTab('community');
-};
-
 // Export functions for potential external use
 window.AcademicPortfolio = {
     activateResearchTab,
@@ -2004,5 +1998,4 @@ window.AcademicPortfolio = {
     closeCourseModal,
     addNewPublication,
     addNewBlogPost,
-    testCommunityTab
 }; 

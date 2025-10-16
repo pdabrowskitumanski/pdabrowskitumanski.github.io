@@ -6,8 +6,9 @@
       "authors": ["M. Sadowski", "et al."],
       "journal": "NeurIPS2025-AI4Science (Poster)",
       "year": "2025",
-      "abstract": "Organic chemistry underpins small-molecule drug discovery, yet—unlike structural biology—it lacks large, unbiased datasets for training broadly generalizable models. We report the largest microliter-scale high-throughput experimentation (HTE) campaign to date: reactions spanning three workhorse classes (Amide Coupling, Suzuki Coupling, Buchwald–Hartwig Coupling) involving products—over larger than the largest publicly disclosed dataset to date. This scale and diversity enable reaction-outcome predictors that generalize to unseen substrates. We introduce UniReact, a molecule-attention Transformer built on pretrained molecular encoders. Across the three reaction classes, our models achieve PR-AUC over random and ROC-AUC in the range. We further establish scaling laws for reaction-outcome prediction spanning three orders of magnitude of HTE data, and for one class up to reactions—to our knowledge, the broadest HTE scaling study to date. In a human study on Suzuki coupling prioritization, our models outperform PhD-level chemists (precision at recall vs.~). Finally, we show the first, to our best knowledge, demonstration of zero-shot transfer to an external HTE dataset. Taken together, these results support scaled HTE as a viable path to broadly applicable predictors of chemical reactivity that surpass human intuition and ultimately help discover novel chemistry.",
-      "keywords": ["deep learning", "retrosynthesis", "HTE", "reaction-outcome prediction"]
+      "abstract": "This paper introduces the largest library of reaction outcomes to date, and a model capable to predict the outcome of a reaction based on the reactants.",
+      "keywords": ["deep learning", "retrosynthesis", "HTE", "reaction-outcome prediction"],
+      "image": "assets/images/publications/2025-neurips.png"
     },
     {
       "title": "Enhancing Image Quality in Dental-Maxillofacial CBCT: The Impact of Iterative Reconstruction and AI on Noise Reduction—A Systematic Review",
