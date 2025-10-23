@@ -1817,7 +1817,7 @@ img {
 }
 
 .course-table thead {
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    background: linear-gradient(135deg, #3498db, #2980b9);
     color: white;
 }
 
@@ -1854,7 +1854,7 @@ img {
 
 /* Links in tables */
 .course-table a {
-    color: var(--primary-color);
+    color: #3498db;
     text-decoration: none;
     font-weight: 500;
     border-radius: 4px;
@@ -1866,7 +1866,7 @@ img {
 }
 
 .course-table a:hover {
-    background-color: var(--primary-color);
+    background-color: #3498db;
     color: white;
     text-decoration: none;
     transform: translateY(-1px);
@@ -1920,9 +1920,9 @@ img {
 /* Week column special styling */
 .course-table td:first-child {
     font-weight: 600;
-    color: var(--primary-color);
+    color: #3498db;
     background: #f8f9fa;
-    border-right: 2px solid var(--primary-color);
+    border-right: 2px solid #3498db;
     text-align: center;
     min-width: 60px;
 }
@@ -1970,7 +1970,7 @@ img {
     margin: 20px 0;
     padding: 15px 20px;
     background: #f8f9fa;
-    border-left: 4px solid var(--primary-color);
+    border-left: 4px solid #3498db;
     font-style: italic;
     color: #555;
 }
@@ -2007,7 +2007,7 @@ img {
 }
 
 .course-modal-content a {
-    color: var(--primary-color);
+    color: #3498db;
     text-decoration: none;
     font-weight: 500;
 }
@@ -3035,7 +3035,7 @@ img {
     align-items: center;
     gap: 8px;
     padding: 8px 16px;
-    background: var(--primary-color);
+    background: #3498db;
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -3044,7 +3044,7 @@ img {
 }
 
 .suggestion-link:hover {
-    background: var(--accent-color);
+    background: #2980b9;
     transform: translateY(-1px);
     text-decoration: none;
     color: white;
