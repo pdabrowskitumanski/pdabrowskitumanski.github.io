@@ -19,9 +19,12 @@
 | 2 | Oct 9 | Statistics in Bioinformatics | [Slides L02](data/teaching/courses/bioinformatics2025/Lecture02.pptx) | --- | [Statistics own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02-statistics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02-statistics-results.ipynb) |
 | 3 | Oct 16 | Data visualization | [Slides L03](data/teaching/courses/bioinformatics2025/Lecture03.pptx) | --- | [Dimension reduction](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/03-visualization.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/03-visualization-results.ipynb) |
 | 4 | Oct 23 | Pairwise sequence alignment | [Slides L04](data/teaching/courses/bioinformatics2025/Lecture04.pptx) | --- | [Pairwise alignment](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/04-pairwise-alignment.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/04-pairwise-alignment-results.ipynb) |
-| -- | Oct 23-29 | FIRST ASIGNMENT | | | | --- |
-| 5 | Oct 30 | MSA and Phylogenetics | | | | --- |
-| 6 | Nov 6 | Motif finding & HMM | | | | --- |
+| -- | Oct 23-29 | FIRST ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment1.pdf) | | | --- |
+| 5 | Oct 30 | Multiple sequence alignment | | | | --- |
+| 6 | Nov 6 | Hidden Markov Models | | | | --- |
+| 7 | Nov 13 | Genome assembly | | | | --- |
+| 8 | Nov 20 | Single cell transcriptomics | | | | --- |
+
 
 
 
