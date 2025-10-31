@@ -26,6 +26,7 @@ Ocenę mozna podwyzszyć o dowolnie podczas odpowiedzi ustnej, odbywającej się
 
 ## Materiały dydaktyczne
 
+[Surowe notatki](data/teaching/courses/calculus-2025Z/script.pdf) 
 ---
 
 ## Tygodniowy plan i materiały
