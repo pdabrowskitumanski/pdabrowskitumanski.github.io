@@ -21,9 +21,22 @@
 | 4 | Oct 23 | Pairwise sequence alignment | [Slides L04](data/teaching/courses/bioinformatics2025/Lecture04.pptx) | --- | [Pairwise alignment](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/04-pairwise-alignment.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/04-pairwise-alignment-results.ipynb) |
 | -- | Oct 23-29 | FIRST ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment1.pdf) | | | --- |
 | 5 | Oct 30 | Multiple sequence alignment | [Slides L05](data/teaching/courses/bioinformatics2025/Lecture05.pptx) | --- | [MSA](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/05-MSA.ipynb)| --- |
-| 6 | Nov 6 | Hidden Markov Models | | | | --- |
-| 7 | Nov 13 | Genome assembly | | | | --- |
-| 8 | Nov 20 | Single cell transcriptomics | | | | --- |
+| 6 | Nov 6 | Protein dynamics | [Slides L06](data/teaching/courses/bioinformatics2025/Lecture06.pptx) | --- | [Protein dynamics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics-results.ipynb) |
+| --- | Nov 13 | No lecture classes | --- | --- | --- | --- |
+| 7 | Nov 20 | Proteomics | | | | --- |
+| 8 | Nov 27 | Interaction networks | | | | --- |
+| -- | Nov 27 - Dec 3 | SECOND ASIGNMENT |  | | | --- |
+| 9 | Dec 4 | Transcriptomics & epigenetics| | | | --- |
+| 10 | Dec 11 | Pathway & enrichment analysis | | | | --- |
+| 11 | Dec 18 | System biology & clinical data | | | | --- |
+| -- | Dec 18 - Jan 7 | THIRD ASIGNMENT |  | | | --- |
+| 12 | Jan 8 | Representing molecules | | | | --- |
+| 13 | Jan 15 | Docking | | | | --- |
+| 14 | Jan 22 |  | | | | --- |
+| 15 | Jan 29 |  | | | | --- |
+| -- | Jan 29 - ? | FOURTH ASIGNMENT |  | | | --- |
+
+
 
 
 
