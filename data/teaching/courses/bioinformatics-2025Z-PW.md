@@ -19,22 +19,22 @@
 | 2 | Oct 9 | Statistics in Bioinformatics | [Slides L02](data/teaching/courses/bioinformatics2025/Lecture02.pptx) | --- | [Statistics own work](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02-statistics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/02-statistics-results.ipynb) |
 | 3 | Oct 16 | Data visualization | [Slides L03](data/teaching/courses/bioinformatics2025/Lecture03.pptx) | --- | [Dimension reduction](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/03-visualization.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/03-visualization-results.ipynb) |
 | 4 | Oct 23 | Pairwise sequence alignment | [Slides L04](data/teaching/courses/bioinformatics2025/Lecture04.pptx) | --- | [Pairwise alignment](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/04-pairwise-alignment.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/04-pairwise-alignment-results.ipynb) |
-| -- | Oct 23-29 | FIRST ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment1.pdf) | | | --- |
+| -- | Oct 23-29 | FIRST ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment1.pdf) | --- | --- | --- |
 | 5 | Oct 30 | Multiple sequence alignment | [Slides L05](data/teaching/courses/bioinformatics2025/Lecture05.pptx) | --- | [MSA](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/05-MSA.ipynb)| --- |
 | 6 | Nov 6 | Protein dynamics | [Slides L06](data/teaching/courses/bioinformatics2025/Lecture06.pptx) | --- | [Protein dynamics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics-results.ipynb) |
-| --- | Nov 13 | No lecture classes | --- | --- | --- | --- |
+| --- | Nov 13 | No classes (Tuesday) | --- | --- | --- | --- |
 | 7 | Nov 20 | Proteomics | | | | --- |
 | 8 | Nov 27 | Interaction networks | | | | --- |
-| -- | Nov 27 - Dec 3 | SECOND ASIGNMENT |  | | | --- |
+| -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | --- | --- | --- | --- |
 | 9 | Dec 4 | Transcriptomics & epigenetics| | | | --- |
 | 10 | Dec 11 | Pathway & enrichment analysis | | | | --- |
 | 11 | Dec 18 | System biology & clinical data | | | | --- |
-| -- | Dec 18 - Jan 7 | THIRD ASIGNMENT |  | | | --- |
+| -- | Dec 18 - Jan 7 | THIRD ASIGNMENT | --- | --- | --- | --- |
 | 12 | Jan 8 | Representing molecules | | | | --- |
 | 13 | Jan 15 | Docking | | | | --- |
 | 14 | Jan 22 |  | | | | --- |
 | 15 | Jan 29 |  | | | | --- |
-| -- | Jan 29 - ? | FOURTH ASIGNMENT |  | | | --- |
+| -- | Jan 29 - ? | FOURTH ASIGNMENT | --- | --- | --- | --- |
 
 
 
