@@ -23,7 +23,7 @@
 | 5 | Oct 30 | Multiple sequence alignment | [Slides L05](data/teaching/courses/bioinformatics2025/Lecture05.pptx) | --- | [MSA](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/05-MSA.ipynb)| --- |
 | 6 | Nov 6 | Protein dynamics | [Slides L06](data/teaching/courses/bioinformatics2025/Lecture06.pptx) | --- | [Protein dynamics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics-results.ipynb) |
 | --- | Nov 13 | No classes (Tuesday) | --- | --- | --- | --- |
-| 7 | Nov 20 | Proteomics | | | | --- |
+| 7 | Nov 20 | Proteomics | |[Slides L07](data/teaching/courses/bioinformatics2025/Lecture07.pptx) | [Proteomics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics-student.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics_results.ipynb)
 | 8 | Nov 27 | Interaction networks | | | | --- |
 | -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | --- | --- | --- | --- |
 | 9 | Dec 4 | Transcriptomics & epigenetics| | | | --- |
