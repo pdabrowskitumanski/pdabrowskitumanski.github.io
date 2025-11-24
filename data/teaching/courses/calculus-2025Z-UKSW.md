@@ -27,6 +27,7 @@ Ocenę mozna podwyzszyć o dowolnie podczas odpowiedzi ustnej, odbywającej się
 ## Materiały dydaktyczne
 
 [Surowe notatki](data/teaching/courses/calculus-2025Z/script.pdf) 
+
 [Zadania z analizy przebiegu funkcji](data/teaching/courses/calculus-2025Z/Zadania-analiza_wykresu.pdf) 
 ---
 
