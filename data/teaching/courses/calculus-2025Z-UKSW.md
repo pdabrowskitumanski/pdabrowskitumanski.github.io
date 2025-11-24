@@ -27,6 +27,7 @@ Ocenę mozna podwyzszyć o dowolnie podczas odpowiedzi ustnej, odbywającej się
 ## Materiały dydaktyczne
 
 [Surowe notatki](data/teaching/courses/calculus-2025Z/script.pdf) 
+[Zadania z analizy przebiegu funkcji](data/teaching/courses/calculus-2025Z/Zadania-analiza_wykresu.pdf) 
 ---
 
 ## Tygodniowy plan i materiały
@@ -35,9 +36,6 @@ Ocenę mozna podwyzszyć o dowolnie podczas odpowiedzi ustnej, odbywającej się
 |------|------|-------|--------|------------|----------|----------|
 | 1 | 3-10.10 | Układy równań | [Notatki](data/teaching/courses/calculus-2025Z/notes1.pdf) | [Kartkowka](data/teaching/courses/calculus-2025Z/kartkowka1.pdf) | [Grupowe](data/teaching/courses/calculus-2025Z/group1.pdf) | [Przykłady](data/teaching/courses/calculus-2025Z/examples1.pdf) |
 | 2 | 13-17.10 | Funkcje ciągłe | [Notatki](data/teaching/courses/calculus-2025Z/notes2.pdf) |  | [Grupowe](data/teaching/courses/calculus-2025Z/group1.pdf) |  |
-| 3 | 20-24.10 | Ciągłość i granice |  |  |  |  |
-| 4 | 27-31.10 | Pochodne I |  |  |  |  |
-
 ---
 
 **Ostatnia aktualizacja:** 12.10.2025
