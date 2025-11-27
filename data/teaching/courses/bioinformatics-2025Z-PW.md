@@ -24,17 +24,17 @@
 | 6 | Nov 6 | Protein dynamics | [Slides L06](data/teaching/courses/bioinformatics2025/Lecture06.pptx) | --- | [Protein dynamics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/06-protein_dynamics-results.ipynb) |
 | --- | Nov 13 | No classes (Tuesday) | --- | --- | --- | --- |
 | 7 | Nov 20 | Proteomics | [Slides L07](data/teaching/courses/bioinformatics2025/Lecture07.pptx) | --- | [Proteomics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics-student.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics_results.ipynb) |
-| 8 | Nov 27 | Interaction networks | | | | --- |
+| 8 | Nov 27 | Interaction networks | [Slides L08](data/teaching/courses/bioinformatics2025/Lecture08.pptx) | --- | [PPIs](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/08-protein_interactions.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/08-protein_interactions-results.ipynb) |
 | -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | --- | --- | --- | --- |
 | 9 | Dec 4 | Transcriptomics & epigenetics| | | | --- |
 | 10 | Dec 11 | Pathway & enrichment analysis | | | | --- |
-| 11 | Dec 18 | System biology & clinical data | | | | --- |
+| 11 | Dec 18 |  | | | | --- |
 | -- | Dec 18 - Jan 7 | THIRD ASIGNMENT | --- | --- | --- | --- |
 | 12 | Jan 8 | Representing molecules | | | | --- |
 | 13 | Jan 15 | Docking | | | | --- |
 | 14 | Jan 22 |  | | | | --- |
-| 15 | Jan 29 |  | | | | --- |
-| -- | Jan 29 - ? | FOURTH ASIGNMENT | --- | --- | --- | --- |
+| -- | Jan 22 - ? | FOURTH ASIGNMENT | --- | --- | --- | --- |
+| 15 | Jan 29 | System biology & clinical data | | | | --- |
 
 
 
