@@ -25,7 +25,7 @@
 | --- | Nov 13 | No classes (Tuesday) | --- | --- | --- | --- |
 | 7 | Nov 20 | Proteomics | [Slides L07](data/teaching/courses/bioinformatics2025/Lecture07.pptx) | --- | [Proteomics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics-student.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics_results.ipynb) |
 | 8 | Nov 27 | Interaction networks | [Slides L08](data/teaching/courses/bioinformatics2025/Lecture08.pptx) | --- | [PPIs](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/08-protein_interactions.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/08-protein_interactions-results.ipynb) |
-| -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | --- | --- | --- | --- |
+| -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment2.pdf) | --- | --- | --- |
 | 9 | Dec 4 | Transcriptomics & epigenetics| | | | --- |
 | 10 | Dec 11 | Pathway & enrichment analysis | | | | --- |
 | 11 | Dec 18 |  | | | | --- |
@@ -43,4 +43,4 @@
 
 ---
 
-**Last Updated:** October 9th 2025
+**Last Updated:** November 27th 2025
