@@ -26,7 +26,7 @@
 | 7 | Nov 20 | Proteomics | [Slides L07](data/teaching/courses/bioinformatics2025/Lecture07.pptx) | --- | [Proteomics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics-student.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/07-proteomics_results.ipynb) |
 | 8 | Nov 27 | Interaction networks | [Slides L08](data/teaching/courses/bioinformatics2025/Lecture08.pptx) | --- | [PPIs](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/08-protein_interactions.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/08-protein_interactions-results.ipynb) |
 | -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment2.pdf) | --- | --- | --- |
-| 9 | Dec 4 | Transcriptomics & epigenetics| | | | --- |
+| 9 | Dec 4 | Genomics foundations | [Slides L09](data/teaching/courses/bioinformatics2025/Lecture09.pptx) | --- | [Genomics foundations](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/09-genomics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/09-genomics-results.ipynb) |
 | 10 | Dec 11 | Pathway & enrichment analysis | | | | --- |
 | 11 | Dec 18 |  | | | | --- |
 | -- | Dec 18 - Jan 7 | THIRD ASIGNMENT | --- | --- | --- | --- |
