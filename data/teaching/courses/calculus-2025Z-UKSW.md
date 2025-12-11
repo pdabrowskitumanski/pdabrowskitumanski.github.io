@@ -37,7 +37,20 @@ Ocenę mozna podwyzszyć o dowolnie podczas odpowiedzi ustnej, odbywającej się
 | Tydzień | Daty | Temat | Notatki | Kartkówka | Zadania grupowe | Zadania przygotowawcze |
 |------|------|-------|--------|------------|----------|----------|
 | 1 | 3-10.10 | Układy równań | [Notatki](data/teaching/courses/calculus-2025Z/notes1.pdf) | [Kartkowka](data/teaching/courses/calculus-2025Z/kartkowka1.pdf) | [Grupowe](data/teaching/courses/calculus-2025Z/group1.pdf) | [Przykłady](data/teaching/courses/calculus-2025Z/examples1.pdf) |
-| 2 | 13-17.10 | Funkcje ciągłe | [Notatki](data/teaching/courses/calculus-2025Z/notes2.pdf) |  | [Grupowe](data/teaching/courses/calculus-2025Z/group1.pdf) |  |
+| 2 | 13-17.10 | Funkcje ciągłe | [Notatki](data/teaching/courses/calculus-2025Z/notes2.pdf) |  | 
+[Grupowe](data/teaching/courses/calculus-2025Z/group1.pdf) |  |
+| 3 | 20-24.10 | Pochodne I | |  |  |  |
+| 4 | 27-31.10 | Pochodne II | |  |  |  |
+| 5 | 3-7.11 | Granice | |  |  |  |
+| 6 | 17-21.11 | Analiza przebiegu funkcji | |  |  |  |
+| 7 | 24-28.11 | Rozwinięcia funkcji | |  |  |  |
+| 8 | 1-5.12 | Pochodne funkcji parametrycznych | |  |  |  |
+| 9 | 8-12.12 | Powtórzenie wiadomości o pochodnych | |  |  |  |
+| 10 | 15-19.12 | Całki I | |  |  |  |
+| 11 | 5-9.01 | Całki II | |  |  |  |
+| 12 | 13-16.01 | Całki III | |  |  |  |
+| 13 | 19-23.01 | Całki IV | |  |  |  |
+| 14 | 26-30.01 | Powtórzenie z całek | |  |  |  |
 ---
 
 **Ostatnia aktualizacja:** 12.10.2025
