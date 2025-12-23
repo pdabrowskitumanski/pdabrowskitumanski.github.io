@@ -28,8 +28,8 @@
 | -- | Nov 27 - Dec 3 | SECOND ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment2.pdf) | --- | --- | --- |
 | 9 | Dec 4 | Genomics foundations | [Slides L09](data/teaching/courses/bioinformatics2025/Lecture09.pptx) | --- | [Genomics foundations](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/09-genomics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/09-genomics-results.ipynb) |
 | 10 | Dec 11 | 3D Genome | [Slides L10](data/teaching/courses/bioinformatics2025/Lecture10.pptx) | --- |[Genome structure](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/10-3d-genome.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/10-3d-genome-results.ipynb) |
-| 11 | Dec 18 | Multi-Omics | | | | --- |
-| -- | Dec 18 - Jan 7 | THIRD ASIGNMENT | --- | --- | --- | --- |
+| 11 | Dec 18 | Transcriptomics | [Slides L11](data/teaching/courses/bioinformatics2025/Lecture11.pptx) | --- |[Transcriptomics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/11-transcriptomics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/11-transcriptomics-results.ipynb) | 
+| -- | Dec 18 - Jan 7 | THIRD ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment3.pdf) | --- | [Materials](data/teaching/courses/bioinformatics2025/assignment3_materials.ipynb) | --- |
 | 12 | Jan 8 | Representing molecules | | | | --- |
 | 13 | Jan 15 | Docking | | | | --- |
 | 14 | Jan 22 |  | | | | --- |
