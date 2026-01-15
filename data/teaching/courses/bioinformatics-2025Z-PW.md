@@ -31,7 +31,7 @@
 | 11 | Dec 18 | Transcriptomics | [Slides L11](data/teaching/courses/bioinformatics2025/Lecture11.pptx) | --- |[Transcriptomics](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/11-transcriptomics.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/11-transcriptomics-results.ipynb) | 
 | -- | Dec 18 - Jan 7 | THIRD ASIGNMENT | [Assignment task](data/teaching/courses/bioinformatics2025/Assignment3.pdf) | --- | [Materials](data/teaching/courses/bioinformatics2025/assignment3_materials.ipynb) | --- |
 | 12 | Jan 8 | Representing molecules | [Slides L12](data/teaching/courses/bioinformatics2025/Lecture12.pptx) | --- |[Molecule representation](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/12-molecule_representation.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/12-molecule_representation-results.ipynb) | 
-| 13 | Jan 15 | Molecules in 3D | | | | --- |
+| 13 | Jan 15 | Molecules in 3D | [Slides L13](data/teaching/courses/bioinformatics2025/Lecture13.pptx) | --- |[Molecules in 3D](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/13-molecule_in_3d.ipynb) | [Solutions](https://github.com/pdabrowskitumanski/bioinformatics_mini_2025/blob/main/notebooks/labs/13-molecule_in_3d-results.ipynb) | 
 | 14 | Jan 22 | Ligands as drugs | | | | --- |
 | -- | Jan 22 - 29 | FOURTH ASIGNMENT | --- | --- | --- | --- |
 | 15 | Jan 29 | System biology & clinical data | | | | --- |
