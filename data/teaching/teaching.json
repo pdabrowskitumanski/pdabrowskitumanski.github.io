@@ -41,7 +41,7 @@
       "description": "",
       "schedule": "Wednesdays, 8:00 AM - 11:15 AM",
       "room": "Building 21, Room 202",
-      "status": "past",
+      "status": "current",
       "content": "data/teaching/courses/calculus-2026L-UKSW.md",
       "featured": true,
       "tags": ["calculus", "mathematics", "undergraduate"]
@@ -78,7 +78,7 @@
       "schedule": "Tuesdays, 1:15 PM, Thursdays, 1:15 PM",
       "room": "Building 21, Room 308A (Tuesdays), Building 21, Room 312 (Thursdays)",
       "content": "data/teaching/courses/calculus-2025Z-UKSW.md",
-      "status": "current",
+      "status": "past",
       "featured": true,
       "tags": ["calculus", "mathematics", "undergraduate"]
     },
