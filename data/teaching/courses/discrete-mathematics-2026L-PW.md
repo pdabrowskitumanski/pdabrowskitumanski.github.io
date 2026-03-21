@@ -28,4 +28,8 @@ The sum of points will be transformed to the final grade according to the scheme
 
 | Weeks | Topics | Notes | Exercises | Small test |
 |------|------|-------|--------|------------|
-| 1 & 2 | Counting |---| [Counting](data/teaching/courses/DM2026/DM1_Calculations.pdf) |---|
+| 1 & 2 | Counting |---| [Counting](data/teaching/courses/DM2026/DM1_Calculations.pdf) |[Test1](data/teaching/courses/DM2026/DM1_test1.pdf)|
+| 3 & 4 | Partitions | [Notes](data/teaching/courses/DM2026/DM1_partitions_notes.pdf) | [Partitions](data/teaching/courses/DM2026/DM1_partitions_exercises.pdf) |---|
+
+---
+Last update 21.03.2026

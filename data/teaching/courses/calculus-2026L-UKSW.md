@@ -30,6 +30,6 @@ Ostateczną ocenę końcową ustalamy na podstawie odpowiedzi ustnej, odbywając
 | 1 | 25.02 | Całkowanie przez części 1 |--------|------------|----------|
 | 2 | 4.03 | Całkowanie przez części 2 |--------|------------|----------|
 | 3 | 11.03 | Dalsze podstawienia |--------|------------|----------|
-| 4 | 18.03 | Równania różniczkowe 1 |--------|------------|----------|
+| 4 | 18.03 | Powtórzenie wiadomości z całkowania |--------|------------|----------|
 
 
