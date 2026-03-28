@@ -1,0 +1,18 @@
+{
+  "cooperations": [
+    {
+      "name": "Molecule.One",
+      "period": "2020-2023",
+      "status": "inactive",
+      "logo": "assets/images/logos/moleculeone.jpg",
+      "website": "https://molecule.one"
+    },
+    {
+      "name": "Ingenix.AI",
+      "period": "2023-current",
+      "status": "active",
+      "logo": "assets/images/logos/ingenixai.jpg",
+      "website": "https://ingenix.ai"
+    }
+  ]
+}

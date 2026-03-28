@@ -370,6 +370,33 @@ body {
 }
 
 /* Research Section */
+.research-overview {
+    margin-bottom: 48px;
+}
+
+.research-intro {
+    max-width: 65ch;
+    margin-bottom: 1.25rem;
+    color: #444;
+    line-height: 1.65;
+}
+
+.research-interests-map {
+    margin: 0;
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 24px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e8ecf0;
+    background: #fff;
+}
+
+.research-interests-map img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .research-tabs {
     display: flex;
     gap: 20px;
@@ -2412,6 +2439,109 @@ img {
 .service-card p {
     color: #666;
     line-height: 1.6;
+}
+
+.business-cooperations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 28px;
+    margin-bottom: 60px;
+}
+
+.business-cooperations-grid .cooperation-empty {
+    grid-column: 1 / -1;
+}
+
+.cooperation-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: white;
+    padding: 28px 24px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid #f1f3f4;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cooperation-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1);
+}
+
+.cooperation-card-active {
+    border-color: rgba(52, 152, 219, 0.35);
+}
+
+.cooperation-logo-wrap {
+    width: 100%;
+    min-height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.cooperation-logo-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.cooperation-logo-wrap img {
+    max-width: 220px;
+    max-height: 72px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.cooperation-body {
+    width: 100%;
+}
+
+.cooperation-name {
+    color: #2c3e50;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.cooperation-name-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.cooperation-name-link:hover {
+    color: #3498db;
+}
+
+.cooperation-period {
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+}
+
+.cooperation-status {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.cooperation-status-active {
+    background: rgba(52, 152, 219, 0.15);
+    color: #2980b9;
+}
+
+.cooperation-status-inactive {
+    background: #eef1f4;
+    color: #6c757d;
 }
 
 .business-contact {

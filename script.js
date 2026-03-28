@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loadNews();
     loadTeaching(null, null, true); // Show only current courses on main teaching page
     loadProjects();
+    loadBusinessCooperations();
 });
 
 // Navigation functionality
@@ -437,6 +438,8 @@ function initSmoothScrolling() {
                     categoryFilter = 'sports';
                 } else if (targetId === 'blog-travelling') {
                     categoryFilter = 'travelling';
+                } else if (targetId === 'blog-math') {
+                    categoryFilter = 'math';
                 }
                 
                 console.log(`📝 Parsed category filter: "${categoryFilter}" from targetId: "${targetId}"`);
@@ -588,7 +591,7 @@ function initIntersectionObserver() {
         }, observerOptions);
         
         // Observe elements that should animate in
-        document.querySelectorAll('.news-item, .project-card, .publication-item, .service-card, .blog-post').forEach(el => {
+        document.querySelectorAll('.news-item, .project-card, .publication-item, .service-card, .blog-post, .cooperation-card').forEach(el => {
             el.style.opacity = '0';
             el.style.transform = 'translateY(20px)';
             el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -615,7 +618,7 @@ function reinitIntersectionObserver() {
         }, observerOptions);
         
         // Observe elements that should animate in
-        document.querySelectorAll('.news-item, .project-card, .publication-item, .service-card, .blog-post').forEach(el => {
+        document.querySelectorAll('.news-item, .project-card, .publication-item, .service-card, .blog-post, .cooperation-card').forEach(el => {
             // Only apply animation styles if not already visible
             if (el.style.opacity !== '1') {
                 el.style.opacity = '0';
@@ -1327,7 +1330,8 @@ function showNoBlogCategoryMessage(category) {
     const categoryNames = {
         'cheminformatics': 'Cheminformatics',
         'sports': 'Sports', 
-        'travelling': 'Travelling'
+        'travelling': 'Travelling',
+        'math': 'Beautiful Math'
     };
     
     const categoryName = categoryNames[category] || category;
@@ -1351,6 +1355,9 @@ function showNoBlogCategoryMessage(category) {
                 </a>
                 <a href="#blog-travelling" class="suggestion-link">
                     <i class="fas fa-plane"></i> Travelling
+                </a>
+                <a href="#blog-math" class="suggestion-link">
+                    <i class="fas fa-calculator"></i> Math
                 </a>
             </div>
         </div>
@@ -1381,6 +1388,9 @@ function showNoBlogPostsMessage() {
                 </a>
                 <a href="#blog-travelling" class="suggestion-link">
                     <i class="fas fa-plane"></i> Travel Posts
+                </a>
+                <a href="#blog-math" class="suggestion-link">
+                    <i class="fas fa-calculator"></i> Math
                 </a>
             </div>
         </div>
@@ -1844,6 +1854,83 @@ function createProjectElement(project) {
     return projectCard;
 }
 
+// Load business cooperations from JSON file
+async function loadBusinessCooperations() {
+    const container = document.querySelector('.business-cooperations-grid');
+    if (!container) return;
+
+    if (window.location.protocol === 'file:') {
+        console.warn('Loading from file:// protocol - cannot load business_cooperations.json due to CORS restrictions');
+        showNoBusinessCooperationsMessage(container);
+        return;
+    }
+
+    try {
+        const response = await fetch('data/business_cooperations.json');
+        if (!response.ok) throw new Error(`Failed to load business cooperations: ${response.status}`);
+
+        const data = await response.json();
+        if (!data.cooperations || data.cooperations.length === 0) {
+            showNoBusinessCooperationsMessage(container);
+            return;
+        }
+
+        container.innerHTML = '';
+        data.cooperations.forEach((coop) => {
+            container.appendChild(createCooperationElement(coop));
+        });
+
+        console.log(`✅ Loaded ${data.cooperations.length} business cooperation(s)`);
+        setTimeout(() => reinitIntersectionObserver(), 100);
+    } catch (error) {
+        console.error('Error loading business cooperations:', error);
+        showNoBusinessCooperationsMessage(container);
+    }
+}
+
+function createCooperationElement(coop) {
+    const card = document.createElement('div');
+    card.className = 'cooperation-card';
+    if (coop.status === 'active') card.classList.add('cooperation-card-active');
+
+    const isActive = coop.status === 'active';
+    const statusBadge = isActive
+        ? '<span class="cooperation-status cooperation-status-active">Active</span>'
+        : '<span class="cooperation-status cooperation-status-inactive">Inactive</span>';
+
+    const nameHtml = coop.website
+        ? `<a href="${coop.website}" class="cooperation-name-link" target="_blank" rel="noopener noreferrer">${coop.name}</a>`
+        : coop.name;
+
+    card.innerHTML = `
+        <div class="cooperation-logo-wrap">
+            ${coop.website ? `<a href="${coop.website}" class="cooperation-logo-link" target="_blank" rel="noopener noreferrer" aria-label="${coop.name} (opens in new tab)">` : ''}
+            <img src="${coop.logo}" alt="${coop.name} logo" loading="lazy">
+            ${coop.website ? '</a>' : ''}
+        </div>
+        <div class="cooperation-body">
+            <h4 class="cooperation-name">${nameHtml}</h4>
+            <p class="cooperation-period">${coop.period}</p>
+            ${statusBadge}
+        </div>
+    `;
+
+    return card;
+}
+
+function showNoBusinessCooperationsMessage(container) {
+    if (!container) return;
+    container.innerHTML = `
+        <div class="no-content-message cooperation-empty">
+            <div class="no-content-icon">
+                <i class="fas fa-handshake"></i>
+            </div>
+            <h3>No cooperation entries</h3>
+            <p>Add entries in <code>data/business_cooperations.json</code>, or open the site over HTTP to load the file.</p>
+        </div>
+    `;
+}
+
 // Load individual course content
 async function loadCourse(courseId) {
     let course = null;
@@ -1993,6 +2080,7 @@ window.AcademicPortfolio = {
     loadNews,
     loadTeaching,
     loadProjects,
+    loadBusinessCooperations,
     loadCourse,
     closeCourseModal,
     addNewPublication,

@@ -1,51 +1,58 @@
 {
   "projects": [
     {
-      "id": "topology-biology",
-      "title": "Topology in Biology 2022",
+      "id": "topology",
+      "title": "Low dimensional topology",
       "duration": "2020 - Present",
       "status": "active",
-      "description": "Investigating topological structures and their applications in biological systems, focusing on protein folding patterns, DNA configurations, and cellular organization. This project explores how mathematical topology can provide insights into biological processes at multiple scales.",
+      "description": "Investigating mathematics of knots, links, spatial graphs, and their invariants.",
       "detailed_description": "",
-      "tags": ["Topology", "Biology", "Mathematics"]
+      "tags": ["Topology", "Mathematics"]
     },
     {
-      "id": "deep-learning-artificial-cell",
-      "title": "Deep Learning for Artificial Cell",
-      "duration": "2024 - Present",
+      "id": "biopolymers",
+      "title": "Complex topology biopolymers",
+      "duration": "2020 - Present",
       "status": "active",
-      "description": "Developing machine learning models to simulate cellular behavior and create artificial cellular systems using deep neural networks.",
-      "tags": ["Deep Learning", "Artificial Cell", "AI", "Synthetic Biology"]
+      "description": "Investigating structure, function, evolution, and dynamics of complex-topologybiopolymers, such as proteins, DNA, and RNA, or chemical compounds.",
+      "detailed_description": "",
+      "tags": ["Topology", "Biology", "Chemistry"]
     },
     {
-      "id": "deep-learning-medical-imaging",
-      "title": "Deep Learning in Medical Imaging",
+      "id": "field-theory",
+      "title": "Polymer field-theoretic description",
+      "duration": "2020 - Present",
+      "status": "active",
+      "description": "Investigating statistics and field theoretic description of polymers, especially biopolymers and inclusion of complex topology.",
+      "detailed_description": "",
+      "tags": ["Field Theory", "Mathematics", "Physics", "Statistics"]
+    },
+    {
+      "id": "space-topology",
+      "title": "Topology of biochemical spaces",
+      "duration": "2026 - Present",
+      "status": "active",
+      "description": "Investigating the mathematic structure of spaces of compounds and sequences - their geometry, topology, and dynamics.",
+      "detailed_description": "",
+      "tags": ["Topology", "Mathematics", "Biology", "Chemistry"]
+    },
+    {
+      "id": "bioinformatics",
+      "title": "Medicinal bioinformatics",
       "duration": "2025 - Present",
       "status": "active",
-      "description": "Applying convolutional neural networks and advanced AI techniques for medical image analysis and diagnostic applications.",
+      "description": "Analyzing radiological images and creating tools for automated analysis.Investigating the medical applications of bioinformatics, such as drug discovery, drug design, and drug development.",
       "detailed_description": "",
-      "tags": ["Medical Imaging", "Deep Learning", "Healthcare", "Computer Vision"],
-      "publications": 1
+      "tags": ["Bioinformatics", "Medicine", "Informatics"]
     },
     {
-      "id": "disentangling-knot-theory",
-      "title": "Disentangling Knot Theory",
-      "duration": "2019 - Present",
+      "id": "imaging",
+      "title": "Medical imaging analysis",
+      "duration": "2026 - Present",
       "status": "active",
-      "description": "Mathematical investigation into knot theory applications and computational methods for analyzing complex topological structures. This project developed new algorithms for knot classification and practical applications.",
+      "description": "Analyzing radiological images and creating tools for automated analysis.",
       "detailed_description": "",
-      "tags": ["Knot Theory", "Topology", "Mathematics", "Computational Methods"]
-    },
-    {
-      "id": "dynamics-entangled-polymers",
-      "title": "Dynamics of Entangled Polymers",
-      "duration": "2018 - Present",
-      "status": "active",
-      "description": "Studying the physical and mathematical properties of polymer entanglements and their dynamic behavior under various conditions. This project combined theoretical modeling with experimental validation.",
-      "detailed_description": "",
-      "tags": ["Polymers", "Dynamics", "Physics", "Mathematical Modeling"],
-      "funding": "",
-      "collaborators": ["Dr. Dusan Racko"]
+      "tags": ["Imaging", "Medicine", "Informatics"]
     }
   ]
 } 
