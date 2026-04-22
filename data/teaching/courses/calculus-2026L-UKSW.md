@@ -27,12 +27,24 @@ Ostateczną ocenę końcową ustalamy na podstawie odpowiedzi ustnej, odbywając
 
 | Tydzień | Daty | Temat | Notatki | Kartkówka | Zadania przygotowawcze |
 |------|------|-------|--------|------------|----------|
-| 1 | 25.02 | Całkowanie przez części 1 |--------|------------|----------|
-| 2 | 4.03 | Całkowanie przez części 2 |--------|------------|----------|
-| 3 | 11.03 | Dalsze podstawienia |--------|------------|----------|
+| 1 | 25.02 | Całkowanie przez części 1 |--------|[Kartkówka 1](data/teaching/courses/calculus-2026L/Kartkowka1L.pdf)|----------|
+| 2 | 4.03 | Całkowanie przez części 2 |--------|[Kartkówka 2](data/teaching/courses/calculus-2026L/Kartkowka2L.pdf)|----------|
+| 3 | 11.03 | Dalsze podstawienia |--------|[Kartkówka 3](data/teaching/courses/calculus-2026L/Kartkowka3L.pdf)|----------|
 | 4 | 18.03 | Powtórzenie wiadomości z całkowania |--------|------------|----------|
-| 5 | 25.03 | Równania różniczkowe zwyczajne 1 |--------|------------|[Zadania przygotowawcze](data/teaching/courses/calculus-2026L/ode1_exercises.pdf)|
-| 6 | 8.04 | Równania różniczkowe zwyczajne 2 |--------|------------|----------|
+| 5 | 25.03 | Równania różniczkowe zwyczajne 1 |--------|[Kartkówka 4](data/teaching/courses/calculus-2026L/Kartkowka4L.pdf)|[Zadania przygotowawcze](data/teaching/courses/calculus-2026L/ode1_exercises.pdf)|
+| 6 | 8.04 | Równania różniczkowe zwyczajne 2 |--------|[Kartkówka 5](data/teaching/courses/calculus-2026L/Kartkowka5L.pdf)|----------|
+| 7 | 15.04 | Wartości własne macierzy |--------|[Kartkówka 6](data/teaching/courses/calculus-2026L/Kartkowka6L.pdf)|----------|
+| 8 | 22.04 | Układy równań różniczkowych |--------|------------|----------|
+| 9 | 29.04 | Stabilność rozwiązań |--------|------------|----------|
+| 10 | 6.05 | Funkcje wielu zmiennych |--------|------------|----------|
+| 11 | 13.05 | Ekstrema funkcji wielu zmiennych |--------|------------|----------|
+| 12 | 20.05 | Układy współrzędnych |--------|------------|----------|
+| 13 | 27.05 | Całki wielokrotne 1 |--------|------------|----------|
+| 14 | 3.06 | Całki wielokrotne 2 |--------|------------|----------|
+
+
+
+
 
 
 
