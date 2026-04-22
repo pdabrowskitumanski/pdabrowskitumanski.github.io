@@ -33,6 +33,9 @@ The sum of points will be transformed to the final grade according to the scheme
 | 5 - 7 | Counting and inclusion-exclusion | [Notes](data/teaching/courses/DM2026/DM1_counting_notes.pdf) | [Counting and inclusion-exclusion](data/teaching/courses/DM2026/DM1_counting_exercises.pdf) | [Test3](data/teaching/courses/DM2026/DM1_test3.pdf) |
 | 8, 10 | Generating functions | --- | --- | --- |
 | 9 | Midterm | --- | [Exemplary exercises](data/teaching/courses/DM2026/DM_Training.pdf) | --- |
+| 11 & 12 | Coding | --- | --- | --- |
+| 13 & 14 | Graph theory | --- | --- | --- |
+| 15 | Final test | --- | --- | --- |
 
 
 ---
