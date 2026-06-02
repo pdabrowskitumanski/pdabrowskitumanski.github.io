@@ -34,13 +34,15 @@ Ostateczną ocenę końcową ustalamy na podstawie odpowiedzi ustnej, odbywając
 | 5 | 25.03 | Równania różniczkowe zwyczajne 1 |--------|[Kartkówka 4](data/teaching/courses/calculus-2026L/Kartkowka4L.pdf)|[Zadania przygotowawcze](data/teaching/courses/calculus-2026L/ode1_exercises.pdf)|
 | 6 | 8.04 | Równania różniczkowe zwyczajne 2 |--------|[Kartkówka 5](data/teaching/courses/calculus-2026L/Kartkowka5L.pdf)|----------|
 | 7 | 15.04 | Wartości własne macierzy |--------|[Kartkówka 6](data/teaching/courses/calculus-2026L/Kartkowka6L.pdf)|----------|
-| 8 | 22.04 | Układy równań różniczkowych |--------|------------|----------|
-| 9 | 29.04 | Stabilność rozwiązań |--------|------------|----------|
-| 10 | 6.05 | Funkcje wielu zmiennych |--------|------------|----------|
-| 11 | 13.05 | Ekstrema funkcji wielu zmiennych |--------|------------|----------|
-| 12 | 20.05 | Układy współrzędnych |--------|------------|----------|
-| 13 | 27.05 | Całki wielokrotne 1 |--------|------------|----------|
-| 14 | 3.06 | Całki wielokrotne 2 |--------|------------|----------|
+| 8 | 22.04 | Układy równań różniczkowych |--------|[Kartkówka 7](data/teaching/courses/calculus-2026L/Kartkowka7L.pdf)|----------|
+| 9 | 29.04 | Stabilność rozwiązań |--------|[Kartkówka 8](data/teaching/courses/calculus-2026L/Kartkowka8L.pdf)|----------|
+| 10 | 6.05 | Funkcje wielu zmiennych |--------|[Kartkówka 9](data/teaching/courses/calculus-2026L/Kartkowka9L.pdf)|----------|
+| 11 | 13.05 | Ekstrema funkcji wielu zmiennych |[Notatki](data/teaching/courses/calculus-2026L/multivariable.pdf)|[Kartkówka 10](data/teaching/courses/calculus-2026L/Kartkowka10L.pdf)|----------|
+| 12 | 20.05 | Całkowanie po krzywej |[Notatki](data/teaching/courses/calculus-2026L/calkowanie_po_krzywej_notes.pdf)|[Kartkówka 11](data/teaching/courses/calculus-2026L/Kartkowka11L.pdf)|[Zadania](data/teaching/courses/calculus-2026L/calkowanie_po_krzywej_zadania.pdf)|
+| 13 | 27.05 | Układy współrzędnych |[Notatki](data/teaching/courses/calculus-2026L/uklady_wspolrzednych.pdf)|------------|----------|
+| 14 | 3.06 | Całki wielokrotne |[Notatki](data/teaching/courses/calculus-2026L/calki_wielokrotne.pdf)|------------|----------|
+| 15 | 12-19.06 | Rozmowa końcowa |--------|------------|[Zadania przygotowawcze](data/teaching/courses/calculus-2026L/final_assessment.pdf)|
+
 
 
 
