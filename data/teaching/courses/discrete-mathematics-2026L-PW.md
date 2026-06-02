@@ -35,8 +35,8 @@ The sum of points will be transformed to the final grade according to the scheme
 | 9 | Midterm | --- | [Exemplary exercises](data/teaching/courses/DM2026/DM_Training.pdf) | [Test](data/teaching/courses/DM2026/DM_Midterm.pdf) |
 | 11 & 12 | Coding | --- | [Coding exercises](data/teaching/courses/DM2026/DM1_coding_exercises.pdf) | [Test5](data/teaching/courses/DM2026/DM1_test5.pdf) |
 | 13 & 14 | Graph theory | [Erdos-Gallai examples](data/teaching/courses/DM2026/DM1_erdos_gallai.pdf) | --- | --- |
-| 15 | Final test | --- | --- | [Exemplary exercises](data/teaching/courses/DM2026/DM1_coding_exercises.pdf) | [Test5](data/teaching/courses/DM2026/DM1_final.pdf) |
+| 15 | Final test | --- | --- | [Exemplary exercises](data/teaching/courses/DM2026/DM1_coding_exercises.pdf) |
 
 
----
+
 Last update 02.06.2026
